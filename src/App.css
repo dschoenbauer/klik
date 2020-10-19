@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+.App {
+	display: grid;
+	
+	align-items: center;
+	justify-content: center;
+
+	width: 100vw;
+	height: 100vh;
+
+	grid-template-areas: "header" "footer";
+	grid-template-rows: calc(100vh - 2em) 1em;
+	
+}
+
+.App__header {
+	grid-area: header;
+
+}
+
+.App__logo {
+	width: 100%;
+	max-width: 50vw;
+}
+
+.App_action{
+	font-size: 2em;
+	color: gray;
+	text-decoration: none;
+}
+.App_actions{
+	display: flex;
+	grid-area: footer;
+	justify-content: space-around;
+}
+
+.App_actions a{
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.App__header {
+		text-align: center;
+	}
+	.App__content{
+
+	}	
+	.App__logo {
+		max-width: 100vw;
+	}
+}
