@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Media } from '../Data/Media.js';
-import "./Menu.css";
+import "./Menu.scss";
 
 export default class Menu extends Component {
 	getMenuItem(data, idx, parentRoot = null) {
@@ -11,11 +11,11 @@ export default class Menu extends Component {
 			const items = data.children.map((menu, idx) => {
 				return this.getMenuItem(menu, idx, "/" + route);
 			})
-			childrenDom = <ul>{items}</ul>;
+			childrenDom = <ul className="menu__sub-menu">{items}</ul>;
 		}
 		const path = (parentRoot ? parentRoot : "") + `/${route}`;
-		return <li key={idx} className="header__navigation-item">
-			<Link to={path}>{label}</Link>
+		return <li key={idx} className="menu__item">
+			<NavLink  className="menu__link" activeClassName="menu__link--active" to={path}>{label}</NavLink >
 			{childrenDom}
 		</li>;
 	}
@@ -24,7 +24,7 @@ export default class Menu extends Component {
 		const menuItems = Media.menu.map((menu, idx) => {
 			return this.getMenuItem(menu, idx);
 		})
-		return <nav className="header__navigation">
+		return <nav className="menu">
 			{menuItems}
 		</nav>;
 	}

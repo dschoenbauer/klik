@@ -1,13 +1,16 @@
+import { ProductLinks } from "./ProductLinks";
+
 export const Media = {
 	menu: [
-		{ label: "Background", route: "about", children: [] },
-		{ label: "Contact", route: "contact", children: [] },
+		{ label: "About", route: "about", children: [] },
 		{
-			label: "Portfolio", route: "product", children: [
-				{ label: "Children", route: "test1", children: [] },
-				{ label: "Family", route: "test2", children: [] },
-				{ label: "Seniors", route: "test3", children: [] },
+			label: "Portfolio", route: "portfolio", children: [
+				{ label: "Wedding", route: ProductLinks.Wedding, children: [] },
+				{ label: "Children", route: ProductLinks.Children, children: [] },
+				{ label: "Family", route: ProductLinks.Family, children: [] },
+				{ label: "Seniors", route: ProductLinks.Seniors, children: [] },
 			]
 		},
+		{ label: "Contact", route: "contact", children: [] },
 	]
 }

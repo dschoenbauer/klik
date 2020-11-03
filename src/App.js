@@ -13,6 +13,7 @@ import About from './Layout/About.js';
 import Contact from './Layout/Contact';
 import Product from './Layout/Product';
 import ProductDetail from './Layout/ProductDetail';
+import Home from './Layout/Home';
 
 function App() {
 	return (
@@ -22,11 +23,11 @@ function App() {
 					<Menu></Menu>
 				</Header>
 				<Switch>
-					<Route exact path="/"  component={About} />
+					<Route exact path="/" component={Home} />
 					<Route path="/about" component={About} />
-					<Route exact path="/product"  component={Product} />
-					<Route path="/contact"  component={Contact} />
-					<Route path="/product/:productKey" component={ProductDetail} />
+					<Route path="/contact" component={Contact} />
+					<Route exact path="/portfolio" component={Product} />
+					<Route path="/portfolio/:portfolio" component={ProductDetail} />
 				</Switch>
 				<Footer></Footer>
 			</Router>

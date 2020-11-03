@@ -7,6 +7,6 @@ export default class ProductDetail extends Component {
 	}
 	
 	render() {
-		return <div className="about">Product Detail: {this.props.match.params.productKey}</div>;
+		return <h1 className="title">Product Detail: {this.props.match.params.portfolio}</h1>;
 	}
 }

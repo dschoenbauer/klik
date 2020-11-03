@@ -1,0 +1,48 @@
+@import "App.scss";
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	&__item{
+		list-style: none;
+		position: relative;
+		padding: 10px;
+	}
+	&__link{
+		@include normal-text;
+		text-decoration: none;
+		text-transform: uppercase;
+		&--active{
+			color:$focused-color;
+			font-weight: bold;
+		}
+		&:hover{
+			opacity: 0.8;;
+		}
+	}
+	&__item:hover > &__sub-menu{
+		display: inline-block;
+	}
+	&__sub-menu{
+		display: none;
+		position: absolute;
+		top: 2.5em;
+		left: 0;
+		background-color: $focused-background-color;
+		transition: all 0.5s ease-out;
+		
+		@include border-styling;
+
+		padding: 10px;
+		margin: 0;
+		&>.menu__item{
+			margin-bottom: 0.5em;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

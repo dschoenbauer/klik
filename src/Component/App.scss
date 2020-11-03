@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap";
+
+$menu-background-color: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+$text-color: #000000;
+$focused-color: #00000088;
+$focused-background-color: lightGray;
+
+@mixin border-styling {
+	border-radius: 0.5em;
+}
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+@mixin title-text{
+	font-size: 2em;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@mixin normal-text{
+	font-size: 1em;
+	color: $text-color;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+.title{
+	@include title-text();
+	text-align: center;
+}

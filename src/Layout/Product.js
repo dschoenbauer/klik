@@ -2,6 +2,6 @@ import React, { Component } from 'react';
 
 export default class Product extends Component {
 	render() {
-		return <div className="about">Product</div>;
+		return <h1 className="title">Product</h1>;
 	}
 }

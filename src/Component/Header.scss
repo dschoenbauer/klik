@@ -1,14 +1,14 @@
-@wide-screen-down: ~'(max-width: 1199px)';
-@desktop-down: ~'(max-width: 991px)';
-@tablet-down: ~'(max-width: 767px)';
-@phone-down: ~'(max-width: 480px)';
-@small-phone-down: ~'(max-width: 320px)';
+@import "App.scss";
 
 .header {
-	background-color: #efefef;
+	background-color: $menu-background-color;
 	display: grid;
-	grid-template-areas: "image navigation";
-	grid-template-columns: auto 50vw ;
+	@media (max-width: 768px) {
+		grid-template-areas: "image navigation";
+		grid-template-columns: max-content auto;  
+	}
+	grid-template-areas: "image navigation .";
+	grid-template-columns: auto 33vw auto;
 }
 
 .header__image-container {
