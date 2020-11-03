@@ -10,6 +10,9 @@ import {
 import Menu from './Component/Menu.js';
 import Header from './Component/Header';
 import About from './Layout/About.js';
+import Contact from './Layout/Contact';
+import Product from './Layout/Product';
+import ProductDetail from './Layout/ProductDetail';
 
 function App() {
 	return (
@@ -19,10 +22,11 @@ function App() {
 					<Menu></Menu>
 				</Header>
 				<Switch>
-					<Route path="/"></Route>
-					<Route path="/about"><About></About></Route>
-					<Route path="/product"></Route>
-					<Route path="/product/:productKey"></Route>
+					<Route exact path="/"  component={About} />
+					<Route path="/about" component={About} />
+					<Route exact path="/product"  component={Product} />
+					<Route path="/contact"  component={Contact} />
+					<Route path="/product/:productKey" component={ProductDetail} />
 				</Switch>
 				<Footer></Footer>
 			</Router>
