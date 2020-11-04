@@ -1,10 +1,10 @@
-@import "App.scss";
+@import 'App.scss';
 
 .header {
 	background-color: $menu-background-color;
 	display: grid;
 	@media (max-width: 768px) {
-		grid-template-areas: "image navigation";
+		grid-template-areas: 'image navigation';
 		grid-template-columns: max-content auto;  
 	}
 	grid-template-areas: "image navigation .";

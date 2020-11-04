@@ -1,0 +1,25 @@
+.portfolio{
+	max-width: 800px;
+	margin: 0 auto;
+	&__title, &__sub-title{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		border-bottom: solid black 2px;
+	}
+	
+	&__sub-title{
+		font-size: 1.0em;
+		border-top: solid black 2px;
+	}
+
+	&__items{
+		padding-left: 1em;
+		margin: 0;
+	}
+
+	&__item-container{
+		justify-content: center;
+		display: flex;
+	}
+}
