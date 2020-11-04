@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Media } from '../Data/Media.js';
+import { Menu as MenuData } from '../Data/Menu.js';
 import "./Menu.scss";
 
 export default class Menu extends Component {
@@ -21,7 +21,7 @@ export default class Menu extends Component {
 	}
 
 	render() {
-		const menuItems = Media.menu.map((menu, idx) => {
+		const menuItems = MenuData.menu.map((menu, idx) => {
 			return this.getMenuItem(menu, idx);
 		})
 		return <nav className="menu">

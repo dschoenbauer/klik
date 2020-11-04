@@ -1,6 +1,8 @@
 @import 'App.scss';
 
 .header {
+	max-width: 800px;
+	margin: 0 auto;
 	background-color: $menu-background-color;
 	display: grid;
 	@media (max-width: 768px) {
