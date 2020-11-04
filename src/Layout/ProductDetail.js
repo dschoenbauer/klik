@@ -7,12 +7,18 @@ export default class ProductDetail extends Component {
 
 	componentWillReceiveProps(nextProps) {
 		const { match: { params } } = nextProps;
-		this.setState(Products[params.portfolio]);
+		this.updateSite(params.portfolio);
 	}
-	
+
 	componentDidMount() {
 		const { match: { params } } = this.props;
-		this.setState(Products[params.portfolio]);
+		this.updateSite(params.portfolio);
+	}
+
+	updateSite(key) {
+		console.log(key);
+		const data = Products.hasOwnProperty(key) ? Products[key] : {};
+		this.setState(data);
 	}
 
 	render() {
