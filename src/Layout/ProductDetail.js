@@ -41,7 +41,7 @@ export default class ProductDetail extends Component {
 						{items.map((item, key) => <li className="portfolio__item" key={key}>{item}</li>)}
 					</ul>
 				</div>
-			}-
+			}
 
 			<ul className="portfolio__gallery">
 				{images.map((image, key) => <li key={key} className="portfolio__image-frame"><img className="portfolio__image" loading="lazy" src={image} alt={image} /></li>)}

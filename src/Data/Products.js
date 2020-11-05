@@ -4,10 +4,10 @@ export const Products = {
 	[ProductLinks.Seniors]: {
 		title: "Senior",
 		products: [
-			{ name: "Mini", price: 150, includes: ["15 minutes", "1 outfit", "5 digitals", "Print Release",] },
-			{ name: "Modern ", price: 350, includes: ["30 minutes", "2 outfits", "15 digitals", "Print Release", "Option to add all digitals for $50 more"] },
-			{ name: "Diamond", price: 500, includes: ["60 minutes", "Up to 3 outfit changes", "$300 in print credit", "10 digitals", "Print Release",] },
-			{ name: "Complete", price: 750, includes: ["120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print Release", "Graduation invite design", "$50 credit for Graduation invites"] },
+			{ name: "Mini", price: 150, includes: ["15 minutes", "1 outfit", "5 digitals", "Print release",] },
+			{ name: "Modern ", price: 350, includes: ["30 minutes", "2 outfits", "15 digitals", "Print release", "Option to add all digitals for $50 more"] },
+			{ name: "Diamond", price: 500, includes: ["60 minutes", "Up to 3 outfit changes", "$300 in print credit", "10 digitals", "Print release",] },
+			{ name: "Complete", price: 750, includes: ["120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print release", "Graduation invite design", "$50 credit for Graduation invites"] },
 		],
 		items: [],
 		disclaimer: [],
@@ -56,34 +56,34 @@ export const Products = {
 	[ProductLinks.Engagement]: {
 		title: "Engagement",
 		products: [
-			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print Release"], },
-			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print Release", "Outfit change if needed"], },
+			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
+			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
 			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
 		],
 		items: [],
 		images: [
-"/img/engagement/0.jpg",
-"/img/engagement/1.jpg",
-"/img/engagement/10.jpg",
-"/img/engagement/12.jpg",
-"/img/engagement/14.jpg",
-"/img/engagement/18 (2).jpg",
-"/img/engagement/18.jpg",
-"/img/engagement/2 (2).jpg",
-"/img/engagement/2.jpg",
-"/img/engagement/3 (2).jpg",
-"/img/engagement/3.jpg",
-"/img/engagement/6.jpg",
-"/img/engagement/7 (2).jpg",
-"/img/engagement/7.jpg",
-"/img/engagement/7F2A2818.jpg",
-"/img/engagement/7F2A4138.jpg",
-"/img/engagement/7F2A4370-2.jpg",
-"/img/engagement/7F2A8791.jpg",
-"/img/engagement/8 (3).jpg",
-"/img/engagement/8.jpg",
-"/img/engagement/9.jpg",
-"/img/engagement/IMG_0087.jpg",
+			"/img/engagement/0.jpg",
+			"/img/engagement/1.jpg",
+			"/img/engagement/10.jpg",
+			"/img/engagement/12.jpg",
+			"/img/engagement/14.jpg",
+			"/img/engagement/18 (2).jpg",
+			"/img/engagement/18.jpg",
+			"/img/engagement/2 (2).jpg",
+			"/img/engagement/2.jpg",
+			"/img/engagement/3 (2).jpg",
+			"/img/engagement/3.jpg",
+			"/img/engagement/6.jpg",
+			"/img/engagement/7 (2).jpg",
+			"/img/engagement/7.jpg",
+			"/img/engagement/7F2A2818.jpg",
+			"/img/engagement/7F2A4138.jpg",
+			"/img/engagement/7F2A4370-2.jpg",
+			"/img/engagement/7F2A8791.jpg",
+			"/img/engagement/8 (3).jpg",
+			"/img/engagement/8.jpg",
+			"/img/engagement/9.jpg",
+			"/img/engagement/IMG_0087.jpg",
 
 		]
 	},
@@ -92,35 +92,43 @@ export const Products = {
 		title: "Wedding ceremony",
 		products: [
 			{
-				name: "Simple", price: 1850, includes: [
-					"6 hours coverage",
-					"600 artistic, edited images",
-					"hi-res files & print release",
-					"digital download and USB",
-					"complimentary e-session",
+				name: "Silver", price: 1200, includes: [
+					"4 hours",
+					"1 photographer",
+					"All digitals",
+					"Print release",
 				]
 			},
 			{
-				name: "Modern", price: 2100, includes: [
-					"8 hours coverage",
-					"800 artistic, edited images",
-					"hi-res files & print release",
-					"digital download and USB",
-					"complimentary e-session",
-					"set of 20 4x6 prints",
+				name: "Diamond", price: 1800, includes: [
+					"6 hours",
+					"2 photographers",
+					"All digitals",
+					"Print release",
 				]
 			},
 			{
-				name: "Lux", price: 2600, includes: [
-					"10 hours coverage",
-					"1000 artistic, edited images",
-					"hi-res files & print release",
-					"digital download and USB",
-					"complimentary e-session",
-					"set of 20 4x6 prints",
-					"20x30 canvas",
+				name: "Lux", price: 2500, includes: [
+					"8 hours",
+					"2 photographers",
+					"Free engagement session",
+					"All wedding day images edited ",
+					"All digitals",
+					"Printing release",
 				]
 			},
+			{
+				name: "Complete", price: 3400, includes: [
+					"8 hours",
+					"2 photographers",
+					"$1000 print credit for canvases, photo books, thank you cards & more",
+					"Free engagement session",
+					"All digitals from engagement session",
+					"All wedding day images edited ",
+					"Printing release",
+				]
+			},
+
 		],
 		items: [
 			"Order professional lab prints from  your gallery - starting as low as $5 {4x6}, $7 {5x7}",
@@ -166,7 +174,7 @@ export const Products = {
 				name: "Mini", price: 150, includes: [
 					"15 minutes",
 					"5 digitals",
-					"Print Release",
+					"Print release",
 					"Option to purchase professional prints (starts @ $7) or all digitals ($50)",
 				]
 			},
@@ -193,9 +201,9 @@ export const Products = {
 	[ProductLinks.LitteOnes]: {
 		title: "Little Ones",
 		products: [
-			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print Release"], },
-			{ name: "Modern", price: 175, includes: ["30 minutes", "10 digitals", "Print Release", "Option to all digitals for $50 more"], },
-			{ name: "Complete", price: 265, includes: ["60 minutes", "All digitals", "Print Release"], },
+			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
+			{ name: "Modern", price: 175, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $50 more"], },
+			{ name: "Complete", price: 265, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
 		items: [],
 		disclaimer: [],
@@ -236,9 +244,9 @@ export const Products = {
 	[ProductLinks.Maternity]: {
 		title: "Maternity",
 		products: [
-			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print Release"], },
-			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print Release", "Option to add all digitals for $50 more"], },
-			{ name: "Complete", price: 325, includes: ["60 minutes", "All digitals", "Print Release"], },
+			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
+			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
+			{ name: "Complete", price: 325, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
 		items: [],
 		images: [
@@ -267,26 +275,49 @@ export const Products = {
 	[ProductLinks.Professional]: {
 		title: "Professional",
 		products: [
-			{ name: "Mini", price: 50, includes: ["5 minutes", "1 digital", "Print Release"], },
-			{ name: "Modern", price: 100, includes: ["20 minutes", "3 digitals", "Print Release", "Outfit change if needed"], },
+			{ name: "Mini", price: 50, includes: ["5 minutes", "1 digital", "Print release"], },
+			{ name: "Modern", price: 100, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
 			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
 		],
 		items: [],
 		images: [
-"/img/professional/7F2A4124-3 edit.jpg",
-"/img/professional/7F2A4513.jpg",
-"/img/professional/7f2a4514.jpg",
-"/img/professional/7F2A5745.jpg",
-"/img/professional/7F2A6089.jpg",
-"/img/professional/7F2A6635.jpg",
-"/img/professional/7F2A6636.jpg",
-"/img/professional/7F2A7761.jpg",
-"/img/professional/7F2A7806.jpg",
-"/img/professional/7F2A8372.jpg",
-"/img/professional/7F2A8461.jpg",
-"/img/professional/7F2A9420.jpg",
-"/img/professional/7F2A9500.jpg",
+			"/img/professional/7F2A4124-3 edit.jpg",
+			"/img/professional/7F2A4513.jpg",
+			"/img/professional/7f2a4514.jpg",
+			"/img/professional/7F2A5745.jpg",
+			"/img/professional/7F2A6089.jpg",
+			"/img/professional/7F2A6635.jpg",
+			"/img/professional/7F2A6636.jpg",
+			"/img/professional/7F2A7761.jpg",
+			"/img/professional/7F2A7806.jpg",
+			"/img/professional/7F2A8372.jpg",
+			"/img/professional/7F2A8461.jpg",
+			"/img/professional/7F2A9420.jpg",
+			"/img/professional/7F2A9500.jpg",
 
 		]
+	},
+	[ProductLinks.Family]: {
+		title: "Family",
+		products: [
+			{ name: "Mini", price: 175, includes: ["15 minutes", "5 digitals", "Print release"], },
+			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
+			{ name: "Complete", price: 350, includes: ["60 minutes", "All digitals", "Print release"], },
+
+			{ name: 'Extended Family\nModern', price: "300 + $5 per person", includes: ["30 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
+			{ name: 'Extended Family\nComplete', price: "450 + $5 per person", includes: ["60 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
+		],
+		items: [],
+		images: []
+	},
+	[ProductLinks.NewBorn]: {
+		title: "New born",
+		products: [
+			{ name: "Mini", price: 200, includes: ["30 minutes", "5 digitals", "Print release", "Baby only"], },
+			{ name: "Modern", price: 285, includes: ["60 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more", "Option for adding in siblings & parents no extra charge"], },
+			{ name: "Complete", price: 400, includes: ["120 minutes", "All digitals", "Print release", "Option for adding in siblings & parents no extra charge"], },
+		],
+		items: [],
+		images: []
 	}
 }

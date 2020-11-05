@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class About extends Component {
 	render() {
 		return <div className="about">
-			<h1 className="about__title">About</h1>
+			<h1 className="about__title title">About</h1>
 			<p className="about__content">KLiK Photography was started in 2008 by Krystle Foley. The KL &amp; K in KLiK are her initials from her maiden name and is pronounced like a camera "click" so we think it fits perfectly!</p>
 			<p className="about__content">Krystle has been capturing moments since she was about 13 years old with a 35mm film camera &amp; remembers after using up a whole roll of film, bringing it into the local grocery store to be developed in one hour photo. She was so excited to see the moments she captured turned into art work or for the memories she captured, shared for everyone to enjoy! </p>
 			<p className="about__content">While in high school, Krystle won state awards for her photography in the school year book &amp; newspaper which helped her realize that others were enjoying her work as much as she enjoyed capturing those moments. </p>

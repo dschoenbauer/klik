@@ -30,11 +30,24 @@ $focused-background-color: lightGray;
 html,body{
 	margin: 0;
 	padding: 0;
-	min-width: 100vw;
+	// min-width: 100vw;
 	min-height: 100vh;
 }
 
 .title{
 	@include title-text();
 	text-align: center;
+}
+
+.about{
+	width: 60vw;
+	margin: 0 auto;
+	@media (max-width: 780px) {
+		width: calc(100% - 2em);
+		margin: 0 1em;
+	}
+
+	
+	text-align: justify;
+	text-justify: inter-word;
 }

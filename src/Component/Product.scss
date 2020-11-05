@@ -1,6 +1,6 @@
 .products {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	@media (max-width: 768px) {
 		justify-content: space-around;
 	}
@@ -8,11 +8,11 @@
 }
 .product {
 	margin-bottom: 1em;
-	width: 250px;
+	width: 22em;
 	&__title {
 		margin: 0 0 0.25em;
 		font-size: 1.2em;
-
+		white-space: pre-line;
 		text-transform: uppercase;
 		text-align: center;
 	}
@@ -23,5 +23,9 @@
 	}
 	&__inclusion {
 		padding-bottom: 0.1em;
+		margin-bottom: 0.1em;
+
+		text-align: justify;
+		text-justify: inter-word;
 	}
 }
