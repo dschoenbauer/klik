@@ -7,11 +7,14 @@ export const Menu = {
 			label: "Portfolio", route: "portfolio", children: [
 				{ label: "Seniors", route: ProductLinks.Seniors, children: [] },
 				{ label: "Wedding", route: ProductLinks.Wedding, children: [] },
+				{ label: "Little Ones", route: ProductLinks.LitteOnes, children: [] },
+				{ label: "Professional", route: ProductLinks.Professional, children: [] },
+				{ label: "Engagement", route: ProductLinks.Engagement, children: [] },
 				{ label: "Maternity", route: ProductLinks.Maternity, children: [] },
 				{ label: "Cake Smash", route: ProductLinks.CakeSmash, children: [] },
-				{ label: "Children", route: ProductLinks.Children, children: [] },
+				{ label: "Fresh 48", route: ProductLinks.Fresh48, children: [] },
 				{ label: "Family", route: ProductLinks.Family, children: [] },
-				{ label: "Professional", route: ProductLinks.Professional, children: [] },
+				{ label: "NewBorn", route: ProductLinks.NewBorn, children: [] },
 			]
 		},
 		{ label: "Contact", route: "contact", children: [] },

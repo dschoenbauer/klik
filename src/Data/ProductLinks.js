@@ -1,10 +1,13 @@
 export const ProductLinks = {
 	Seniors: "seniors",
-	Engagement:"engagement",
+	LitteOnes: "little-ones",
+	Engagement: "engagement",
 	Wedding: "wedding",
 	Maternity: "maternity",
 	CakeSmash: "cakeSmash",
 	Children: "children",
 	Family: "family",
-	Professional: "professional"
+	Professional: "professional",
+	Fresh48: "fresh48",
+	NewBorn: "newborn",
 }

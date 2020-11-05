@@ -4,10 +4,10 @@ export const Products = {
 	[ProductLinks.Seniors]: {
 		title: "Senior",
 		products: [
-			{ name: "Mini", price: 150, includes: [ "15 minutes", "1 outfit", "5 digitals", "Print Release",]},
-			{ name: "Modern ", price: 350, includes: [ "30 minutes", "2 outfits", "15 digitals", "Print Release","Option to add all digitals for $50 more"]},
-			{ name: "Diamond", price: 500, includes: [ "60 minutes", "Up to 3 outfit changes", "$300 in print credit", "10 digitals", "Print Release",]},
-			{ name: "Complete", price: 750, includes: [ "120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print Release", "Graduation invite design", "$50 credit for Graduation invites"]},
+			{ name: "Mini", price: 150, includes: ["15 minutes", "1 outfit", "5 digitals", "Print Release",] },
+			{ name: "Modern ", price: 350, includes: ["30 minutes", "2 outfits", "15 digitals", "Print Release", "Option to add all digitals for $50 more"] },
+			{ name: "Diamond", price: 500, includes: ["60 minutes", "Up to 3 outfit changes", "$300 in print credit", "10 digitals", "Print Release",] },
+			{ name: "Complete", price: 750, includes: ["120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print Release", "Graduation invite design", "$50 credit for Graduation invites"] },
 		],
 		items: [],
 		disclaimer: [],
@@ -53,15 +53,39 @@ export const Products = {
 
 		]
 	},
-	[ProductLinks.Engagement]:{
+	[ProductLinks.Engagement]: {
 		title: "Engagement",
-		products:[
-			{name: "Mini", price: 150, includes: ["15 minutes","5 digitals","Print Release"],},
-			{name: "Modern", price: 200, includes: ["20 minutes","3 digitals","Print Release", "Outfit change if needed"],},
-			{name: "Group", includes: ["10-19 people $30 each","20+ people $25 each","On location is a $50 set up fee + travel"],},
+		products: [
+			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print Release"], },
+			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print Release", "Outfit change if needed"], },
+			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
 		],
-		items:[],
-		images:[]
+		items: [],
+		images: [
+"/img/engagement/0.jpg",
+"/img/engagement/1.jpg",
+"/img/engagement/10.jpg",
+"/img/engagement/12.jpg",
+"/img/engagement/14.jpg",
+"/img/engagement/18 (2).jpg",
+"/img/engagement/18.jpg",
+"/img/engagement/2 (2).jpg",
+"/img/engagement/2.jpg",
+"/img/engagement/3 (2).jpg",
+"/img/engagement/3.jpg",
+"/img/engagement/6.jpg",
+"/img/engagement/7 (2).jpg",
+"/img/engagement/7.jpg",
+"/img/engagement/7F2A2818.jpg",
+"/img/engagement/7F2A4138.jpg",
+"/img/engagement/7F2A4370-2.jpg",
+"/img/engagement/7F2A8791.jpg",
+"/img/engagement/8 (3).jpg",
+"/img/engagement/8.jpg",
+"/img/engagement/9.jpg",
+"/img/engagement/IMG_0087.jpg",
+
+		]
 	},
 
 	[ProductLinks.Wedding]: {
@@ -166,12 +190,12 @@ export const Products = {
 		]
 	},
 
-	[ProductLinks.Children]: {
+	[ProductLinks.LitteOnes]: {
 		title: "Little Ones",
 		products: [
-			{name: "Mini", price: 150, includes: ["15 minutes","5 digitals","Print Release"],},
-			{name: "Modern", price: 175, includes: ["30 minutes","10 digitals","Print Release", "Option to all digitals for $50 more"],},
-			{name: "Complete", price: 265, includes: ["60 minutes","All digitals","Print Release"],},
+			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print Release"], },
+			{ name: "Modern", price: 175, includes: ["30 minutes", "10 digitals", "Print Release", "Option to all digitals for $50 more"], },
+			{ name: "Complete", price: 265, includes: ["60 minutes", "All digitals", "Print Release"], },
 		],
 		items: [],
 		disclaimer: [],
@@ -209,24 +233,60 @@ export const Products = {
 			"/img/little_ones/acrylic.jpg",
 		]
 	},
-	[ProductLinks.Maternity]:{
+	[ProductLinks.Maternity]: {
 		title: "Maternity",
-		products:[
-			{name: "Mini", price: 150, includes: ["15 minutes","5 digitals","Print Release"],},
-			{name: "Modern", price: 225, includes: ["30 minutes","10 digitals","Print Release", "Option to add all digitals for $50 more"],},
-			{name: "Complete", price: 325, includes: ["60 minutes","All digitals","Print Release"],},
+		products: [
+			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print Release"], },
+			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print Release", "Option to add all digitals for $50 more"], },
+			{ name: "Complete", price: 325, includes: ["60 minutes", "All digitals", "Print Release"], },
 		],
-		items:[],
-		images:[]
+		items: [],
+		images: [
+			"/img/maternity/1.jpg",
+			"/img/maternity/2.jpg",
+			"/img/maternity/3.jpg",
+			"/img/maternity/4.jpg",
+			"/img/maternity/5.jpg",
+			"/img/maternity/6.jpg",
+			"/img/maternity/7f1a.jpg",
+			"/img/maternity/7F2A1115.jpg",
+			"/img/maternity/7F2A2816 edit.jpg",
+			"/img/maternity/7F2A4758.jpg",
+			"/img/maternity/7F2A4800.jpg",
+			"/img/maternity/7F2A4889.jpg",
+			"/img/maternity/7F2A7523-2.jpg",
+			"/img/maternity/7F2A7767.jpg",
+			"/img/maternity/7F2A7888.jpg",
+			"/img/maternity/7F2A7907.jpg",
+			"/img/maternity/7F2A9557.jpg",
+			"/img/maternity/7F2A9590.jpg",
+			"/img/maternity/8154212.jpg",
+			"/img/maternity/untitled-17.jpg",
+		]
 	},
-	[ProductLinks.Professional]:{
+	[ProductLinks.Professional]: {
 		title: "Professional",
-		products:[
-			{name: "Mini", price: 50, includes: ["5 minutes","1 digital","Print Release"],},
-			{name: "Modern", price: 100, includes: ["20 minutes","3 digitals","Print Release", "Outfit change if needed"],},
-			{name: "Group", includes: ["10-19 people $30 each","20+ people $25 each","On location is a $50 set up fee + travel"],},
+		products: [
+			{ name: "Mini", price: 50, includes: ["5 minutes", "1 digital", "Print Release"], },
+			{ name: "Modern", price: 100, includes: ["20 minutes", "3 digitals", "Print Release", "Outfit change if needed"], },
+			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
 		],
-		items:[],
-		images:[]
+		items: [],
+		images: [
+"/img/professional/7F2A4124-3 edit.jpg",
+"/img/professional/7F2A4513.jpg",
+"/img/professional/7f2a4514.jpg",
+"/img/professional/7F2A5745.jpg",
+"/img/professional/7F2A6089.jpg",
+"/img/professional/7F2A6635.jpg",
+"/img/professional/7F2A6636.jpg",
+"/img/professional/7F2A7761.jpg",
+"/img/professional/7F2A7806.jpg",
+"/img/professional/7F2A8372.jpg",
+"/img/professional/7F2A8461.jpg",
+"/img/professional/7F2A9420.jpg",
+"/img/professional/7F2A9500.jpg",
+
+		]
 	}
 }
