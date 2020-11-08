@@ -3,7 +3,7 @@ import data from '../Data/Data.json'
 
 export default class Contact extends Component {
 	render() {
-		const { about: { telephone, address: { street, city, state } }, title } = data;
+		const { about: { telephone, address: { street, city, state, zip } }, title } = data;
 		const telephoneLink = `tel:${telephone}`;
 		return <div className="contact">
 			<h1 className="contact__title title">Contact me</h1>
@@ -13,8 +13,8 @@ export default class Contact extends Component {
 					<address>
 						{title}<br />
 						{street} <span className="glyphicon glyphicon-map-marker"></span><br />
-						{city}<br />
-						{state}<br />
+						{city},<br />
+						{state} {zip}<br />
 						<span className="glyphicon glyphicon-phone"></span> <a href={telephoneLink}>{telephone}</a>
 					</address>
 				</div>
