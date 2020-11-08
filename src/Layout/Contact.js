@@ -7,7 +7,7 @@ import "./Contact.scss";
 
 export default class Contact extends Component {
 	render() {
-		const { about: { location, telephone, address: { street, city, state } }, title } = data;
+		const { about: { location, telephone, address: { street, city, state, zip } }, title } = data;
 
 		return <div className="contact">
 			<h1 className="contact__title title">Contact me</h1>
@@ -17,8 +17,8 @@ export default class Contact extends Component {
 					<address className="contact__address">
 						{title}<br />
 						{street} <Location href={location}></Location><br />
-						{city}<br />
-						{state}<br />
+						{city},<br />
+						{state} {zip}<br />
 						{telephone}<br />
 						<Phone className="contact__link" telephone={telephone}>Call</Phone> or <SMS className="contact__link" telephone={telephone} message="Hello Krystle-">Text</SMS>
 					</address>
