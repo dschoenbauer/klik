@@ -11,7 +11,7 @@ import { Location } from './Contact/Location';
 
 export default class Header extends Component {
 	render() {
-		const { title, about: { facebook, telephone, location } } = data;
+		const { about: { facebook, telephone, location } } = data;
 		return <header {...this.props}>
 			<div className="header__image-container">
 				<Link to="/">
