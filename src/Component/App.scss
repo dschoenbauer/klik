@@ -14,6 +14,13 @@ $focused-background-color: lightGray;
 	list-style: none;
 }
 
+@mixin link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: $text-color;
+	font-family: 'Montserrat', sans-serif;
+}
+
 
 @mixin title-text{
 	font-size: 2em;
@@ -50,21 +57,4 @@ html,body{
 	
 	text-align: justify;
 	text-justify: inter-word;
-}
-
-.contact{
-	&-details{
-		display: flex;
-		justify-content: space-around;
-		max-width: 1080px;
-		margin: 0 auto;
-	}
-
-	&__map{
-		width: 100%;
-		height: 100%;
-	}
-	&__section{
-		width: 40vw;
-	}
 }

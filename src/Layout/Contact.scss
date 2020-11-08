@@ -1,0 +1,25 @@
+@import "../Component/App.scss";
+.contact{
+	&-details{
+		display: flex;
+		justify-content: space-around;
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+
+	&__address{
+		@include normal-text();
+	}
+
+	&__map{
+		width: 100%;
+		height: 100%;
+	}
+	&__section{
+		width: 40vw;
+	}
+
+	&__link{
+		@include link;
+	}
+}
