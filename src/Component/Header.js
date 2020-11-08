@@ -4,6 +4,10 @@ import React, { Component } from 'react';
 import "./Header.scss";
 import { Link } from 'react-router-dom';
 import data from '../Data/Data.json'
+import { Phone } from './Contact/Phone';
+import { SMS } from './Contact/SMS';
+import { Facebook } from './Contact/Facebook';
+import { Location } from './Contact/Location';
 
 export default class Header extends Component {
 	render() {
@@ -15,10 +19,11 @@ export default class Header extends Component {
 				</Link>
 			</div>
 			{this.props.children}
-			<ul className="header__social">
-				<li className="header__social-item"><a title={title} target="_blank" rel="noopener noreferrer" href={facebook}><i className="fa fa-facebook-f"></i></a></li>
-				<li className="header__social-item"><a title={title} target="_blank" rel="noopener noreferrer" href={`tel:${telephone}`}><i className="fa fa-phone"></i></a></li>
-				<li className="header__social-item"><a title={title} target="_blank" rel="noopener noreferrer" href={location}><i className="fa fa-map-marker"></i></a></li>
+			<ul className="header__social">				
+				<li className="header__social-item"><Facebook href={facebook}></Facebook> </li>
+				<li className="header__social-item"><Phone telephone={telephone}></Phone> </li>
+				<li className="header__social-item"><SMS telephone={telephone} message="Hello Krystle-"></SMS> </li>
+				<li className="header__social-item"><Location href={location}></Location> </li>
 			</ul>
 		</header>;
 	}
