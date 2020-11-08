@@ -19,13 +19,13 @@
 	&__includes {
 		margin: 0;
 		padding-left: 1em;
-		list-style-type: "- ";
+		list-style-type: none;
 	}
 	&__inclusion {
 		padding-bottom: 0.1em;
 		margin-bottom: 0.1em;
 
-		text-align: justify;
+		text-align: center;
 		text-justify: inter-word;
 	}
 }
