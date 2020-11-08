@@ -38,7 +38,6 @@ export const Products = {
 			"/img/senior/7F2A7737.jpg",
 			"/img/senior/7F2A7791.jpg",
 			"/img/senior/7F2A8099 snow.jpg",
-			"/img/senior/7F2A8461.jpg",
 			"/img/senior/7F2A8483.jpg",
 			"/img/senior/7F2A9271.jpg",
 			"/img/senior/7F2A9304.jpg",
@@ -291,7 +290,6 @@ export const Products = {
 			"/img/professional/7F2A7761.jpg",
 			"/img/professional/7F2A7806.jpg",
 			"/img/professional/7F2A8372.jpg",
-			"/img/professional/7F2A8461.jpg",
 			"/img/professional/7F2A9420.jpg",
 			"/img/professional/7F2A9500.jpg",
 
