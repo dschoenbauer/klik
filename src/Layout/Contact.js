@@ -12,6 +12,16 @@ export default class Contact extends Component {
 		return <div className="contact">
 			<h1 className="contact__title title">Contact me</h1>
 			<div className="contact-details">
+				<div className="contact__section">
+					<h2 className="contact__address-title title">MAILING LIST</h2>
+					<form name="mailing-list" method="post">
+						<p><label>Your Name: <input type="text" name="name" /></label></p>
+						<p><label>Your Email: <input type="email" name="email" /></label></p>
+						<p><label>Message: <textarea name="message"></textarea></label></p>
+						<p><button type="submit">Send</button></p>
+						<input type="hidden" name="form-name" value="mailing-list" />
+					</form>,
+				</div>
 				<div className="contact__address contact__section">
 					<h2 className="contact__address-title title">ADDRESS</h2>
 					<address className="contact__address">
