@@ -38,6 +38,7 @@ export const Products = {
 			"/img/senior/7F2A7737.jpg",
 			"/img/senior/7F2A7791.jpg",
 			"/img/senior/7F2A8099 snow.jpg",
+			"/img/senior/7F2A8461.jpg",
 			"/img/senior/7F2A8483.jpg",
 			"/img/senior/7F2A9271.jpg",
 			"/img/senior/7F2A9304.jpg",
@@ -83,7 +84,6 @@ export const Products = {
 			"/img/engagement/8.jpg",
 			"/img/engagement/9.jpg",
 			"/img/engagement/IMG_0087.jpg",
-
 		]
 	},
 
@@ -193,7 +193,6 @@ export const Products = {
 			"/img/cake_smash/7F2A9368.jpg",
 			"/img/cake_smash/7F2A9885.jpg",
 			"/img/cake_smash/7F2A98886.jpg",
-
 		]
 	},
 
@@ -306,7 +305,37 @@ export const Products = {
 			{ name: 'Extended Family\nComplete', price: "450 + $5 per person", includes: ["60 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
 		],
 		items: [],
-		images: []
+		images: [
+			"/img/family/1.jpg",
+			"/img/family/7F2A0239.jpg",
+			"/img/family/7F2A0299.jpg",
+			"/img/family/7F2A0328.jpg",
+			"/img/family/7F2A0415.jpg",
+			"/img/family/7F2A0458.jpg",
+			"/img/family/7F2A0912-2.jpg",
+			"/img/family/7F2A1382.jpg",
+			"/img/family/7F2A2457.jpg",
+			"/img/family/7F2A3064.jpg",
+			"/img/family/7F2A3331.jpg",
+			"/img/family/7F2A3624.jpg",
+			"/img/family/7F2A3678.jpg",
+			"/img/family/7F2A4281.jpg",
+			"/img/family/7F2A4958.jpg",
+			"/img/family/7F2A5004.jpg",
+			"/img/family/7F2A5516 edit.jpg",
+			"/img/family/7F2A6349.jpg",
+			"/img/family/7F2A6386.jpg",
+			"/img/family/7F2A6489-2.jpg",
+			"/img/family/7F2A8474.jpg",
+			"/img/family/7F2A8556 (1).jpg",
+			"/img/family/7F2A8670.jpg",
+			"/img/family/7F2A8942.jpg",
+			"/img/family/7F2A9040-3.jpg",
+			"/img/family/7F2A9070.jpg",
+			"/img/family/7F2A9867.jpg",
+			"/img/family/IMG_1408.jpg",
+
+		]
 	},
 	[ProductLinks.NewBorn]: {
 		title: "New born",
@@ -316,6 +345,49 @@ export const Products = {
 			{ name: "Complete", price: 400, includes: ["120 minutes", "All digitals", "Print release", "Option for adding in siblings & parents no extra charge"], },
 		],
 		items: [],
-		images: []
+		images: ["/img/new_born/1.jpg",
+			"/img/new_born/2.jpg",
+			"/img/new_born/3.jpg",
+			"/img/new_born/4.jpg",
+			"/img/new_born/5.jpg",
+			"/img/new_born/6.jpg",
+			"/img/new_born/7F2A0079.jpg",
+			"/img/new_born/7F2A0088.jpg",
+			"/img/new_born/7F2A0554.jpg",
+			"/img/new_born/7F2A2434.jpg",
+			"/img/new_born/7F2A2551.jpg",
+			"/img/new_born/7F2A2587.jpg",
+			"/img/new_born/7F2A3674.jpg",
+			"/img/new_born/7F2A3996.jpg",
+			"/img/new_born/7F2A4133.jpg",
+			"/img/new_born/7F2A5323.jpg",
+			"/img/new_born/7F2A5476.jpg",
+			"/img/new_born/7F2A5525.jpg",
+			"/img/new_born/7F2A5575.jpg",
+			"/img/new_born/7F2A6580.jpg",
+			"/img/new_born/7F2A7225.jpg",
+			"/img/new_born/7F2A7246.jpg",
+			"/img/new_born/7F2A7991.jpg",
+			"/img/new_born/7F2A8205.jpg",
+			"/img/new_born/7F2A9005-2.jpg",
+			"/img/new_born/7F2A9465.jpg",
+			"/img/new_born/7F2A9516.jpg",
+			"/img/new_born/7F2A9586.jpg",
+			"/img/new_born/7F2A9832edit.jpg",
+			"/img/new_born/953.jpg",
+		]
+	},
+	[ProductLinks.Fresh48]: {
+		title: "Fresh 48",
+		products: [],
+		items: [],
+		images: [
+			"/img/fresh48/1.jpg",
+			"/img/fresh48/7F2A0479-2.jpg",
+			"/img/fresh48/7F2A0576-2.jpg",
+			"/img/fresh48/7F2A3492-2.jpg",
+			"/img/fresh48/7F2A3503.jpg",
+			"/img/fresh48/7F2A3563.jpg",
+		]
 	}
 }
