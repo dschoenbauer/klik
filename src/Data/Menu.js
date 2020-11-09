@@ -1,22 +1,27 @@
 import { ProductLinks } from "./ProductLinks";
 
+const pp = (route) => `/portfolio/${route}`;
+
 export const Menu = {
 	menu: [
-		{ label: "About", route: "about", children: [] },
+		{ label: "About", route: "/about", children: [
+			{ label: "Photographer", route: "/about/photographer"},
+			{ label: "Studio", route: "/about/studio"},
+		] },
 		{
-			label: "Portfolio", route: "portfolio", children: [
-				{ label: "Seniors", route: ProductLinks.Seniors, children: [] },
-				{ label: "Wedding", route: ProductLinks.Wedding, children: [] },
-				{ label: "Little Ones", route: ProductLinks.LitteOnes, children: [] },
-				{ label: "Professional", route: ProductLinks.Professional, children: [] },
-				{ label: "Engagement", route: ProductLinks.Engagement, children: [] },
-				{ label: "Maternity", route: ProductLinks.Maternity, children: [] },
-				{ label: "Cake Smash", route: ProductLinks.CakeSmash, children: [] },
-				{ label: "Fresh 48", route: ProductLinks.Fresh48, children: [] },
-				{ label: "Family", route: ProductLinks.Family, children: [] },
-				{ label: "New born", route: ProductLinks.NewBorn, children: [] },
+			label: "Portfolio", route: "/portfolio", children: [
+				{ label: "Seniors", route: pp(ProductLinks.Seniors)},
+				{ label: "Wedding", route: pp(ProductLinks.Wedding)},
+				{ label: "Little Ones", route: pp(ProductLinks.LitteOnes)},
+				{ label: "Professional", route: pp(ProductLinks.Professional)},
+				{ label: "Engagement", route: pp(ProductLinks.Engagement)},
+				{ label: "Maternity", route: pp(ProductLinks.Maternity)},
+				{ label: "Cake Smash", route: pp(ProductLinks.CakeSmash)},
+				{ label: "Fresh 48", route: pp(ProductLinks.Fresh48)},
+				{ label: "Family", route: pp(ProductLinks.Family)},
+				{ label: "New born", route: pp(ProductLinks.NewBorn)},
 			]
 		},
-		{ label: "Contact", route: "contact", children: [] },
+		{ label: "Contact", route: "/contact"},
 	]
 }
