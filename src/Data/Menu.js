@@ -14,7 +14,7 @@ export const Menu = {
 				{ label: "Cake Smash", route: ProductLinks.CakeSmash, children: [] },
 				{ label: "Fresh 48", route: ProductLinks.Fresh48, children: [] },
 				{ label: "Family", route: ProductLinks.Family, children: [] },
-				{ label: "New born", route: ProductLinks.NewBorn, children: [] },
+				{ label: "Newborn", route: ProductLinks.NewBorn, children: [] },
 			]
 		},
 		{ label: "Contact", route: "contact", children: [] },
