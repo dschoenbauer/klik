@@ -20,7 +20,7 @@ export default class Contact extends Component {
 						<p className="form__element"><label className="form__label">Message:</label> <textarea  className="form__input"  name="message"></textarea></p>
 						<p className="form__element"><button className="form__button" type="submit">Send</button></p>
 						<input type="hidden" name="form-name" value="mailing-list" />
-					</form>,
+					</form>
 				</div>
 				<div className="contact__location contact__section">
 					<h2 className="text-center title">OUR LOCATION</h2>
