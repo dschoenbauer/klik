@@ -15,9 +15,9 @@ export default class Contact extends Component {
 				<div className="contact__section">
 					<h2 className="contact__address-title title">MAILING LIST</h2>
 					<form name="mailing-list" method="post" className="form">
-						<p className="form__element"><label className="form__label">Name:</label><input   className="form__input" type="text" name="value1" /></p>
-						<p className="form__element"><label className="form__label">Email:</label><input  className="form__input"  type="email" name="value2" /></p>
-						<p className="form__element"><label className="form__label">Message:</label> <textarea  className="form__input"  name="value3"></textarea></p>
+						<p className="form__element"><label className="form__label">Name:</label><input   className="form__input" type="text" name="name" /></p>
+						<p className="form__element"><label className="form__label">Email:</label><input  className="form__input"  type="email" name="email" /></p>
+						<p className="form__element"><label className="form__label">Message:</label> <textarea  className="form__input"  name="message"></textarea></p>
 						<p className="form__element"><button className="form__button" type="submit">Send</button></p>
 						<input type="hidden" name="form-name" value="mailing-list" />
 					</form>
