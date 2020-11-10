@@ -10,4 +10,5 @@ export const ProductLinks = {
 	Professional: "professional",
 	Fresh48: "fresh48",
 	NewBorn: "newborn",
+	Boudoir: "Boudoir",
 }

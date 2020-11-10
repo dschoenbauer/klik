@@ -15,6 +15,7 @@ export const Menu = {
 				{ label: "Fresh 48", route: ProductLinks.Fresh48, children: [] },
 				{ label: "Family", route: ProductLinks.Family, children: [] },
 				{ label: "Newborn", route: ProductLinks.NewBorn, children: [] },
+				{ label: "Boudoir", route: ProductLinks.Boudoir, children: [] },
 			]
 		},
 		{ label: "Contact", route: "contact", children: [] },

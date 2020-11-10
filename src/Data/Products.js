@@ -10,7 +10,11 @@ export const Products = {
 			{ name: "Complete", price: 750, includes: ["120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print release", "Graduation invite design", "$50 credit for Graduation invites"] },
 		],
 		items: [],
-		disclaimer: [],
+		disclaimer: [
+			"At KLiK, if you have anything that you are very passionate about we would love to include that into your senior photos to show off exactly who you are!",
+			"We like to have fun with the seniors that come into KLiK whether its in the studio or on location! Are you looking for fun colorful portraits, more traditional, or a mixture of both? We've got you covered! At KLiK we have over 130 backdrops to choose from and many more spots around town that we have already scoped out that seniors and their parents just love!"
+
+		],
 		images: [
 			"/img/senior/1.jpg",
 			"/img/senior/2 (2).jpg",
@@ -59,6 +63,11 @@ export const Products = {
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
 			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
+		],
+		disclaimer:[
+			"Congratulations on your engagement! What an exciting time in your life - You've found the one you want to spend forever with, now let the planning begin!",
+			"KLiK also offers <a href='/portfolio/wedding'>wedding day</a> photography. We are always so excited when someone chooses us to capture their love story & all the exciting changes that happen when preparing to start your life together."
+
 		],
 		items: [],
 		images: [
@@ -379,8 +388,17 @@ export const Products = {
 	},
 	[ProductLinks.Fresh48]: {
 		title: "Fresh 48",
-		products: [],
-		items: [],
+		products: [
+			{ name: "With a newborn session", price: 150, includes: [], },
+			{ name: "Without a newborn session", price: 200, includes: [], },
+		],
+		disclaimer:["Due to the short amount of time for these to happen (48 hours) there is NO GUARENTEE that KLiK will be able to make it if we already have a full schedule. The best thing to do is to contact us ahead of time so we know the approximate date & when you are heading to the hospital to have the baby, text the studio # at (507) 210-7087. When doing that we will let you know if we have availability in the 48 hours to do the photos!"],
+		items: [
+			"Covers photographer coming to the hospital for your session",
+			"All images edited with print release",
+			"Time & talent of photographer",
+			"Viewing session"
+		],
 		images: [
 			"/img/fresh48/1.jpg",
 			"/img/fresh48/7F2A0479-2.jpg",
@@ -389,5 +407,19 @@ export const Products = {
 			"/img/fresh48/7F2A3503.jpg",
 			"/img/fresh48/7F2A3563.jpg",
 		]
+	},
+	[ProductLinks.Boudoir]: {
+		title: "Boudoir",
+		products: [
+			{ name: "30 minute session", price: 65, includes: ["10 digital images and printing release $175", "All digital images and printing release $275"], },
+			{ name: "60 minute session", price: 95, includes: ["10 digital images and printing release $175", "All digital images and printing release $275"], },
+		],
+		disclaimer:["To protect our clients and maintain respect, we do not showcase this gallery.  We like to keep these photos special for the people who get them taken and the person they are taking them for. We can guarantee you that these photos are the same great KLiK quality."],
+		items: [
+			"A minimum print order of $125",
+			"Add hair and make up onto any package for $75",
+			"(Wallet size prints up to wall art available)"
+		],
+		images: []
 	}
 }
