@@ -338,7 +338,7 @@ export const Products = {
 		]
 	},
 	[ProductLinks.NewBorn]: {
-		title: "New born",
+		title: "Newborn",
 		products: [
 			{ name: "Mini", price: 200, includes: ["30 minutes", "5 digitals", "Print release", "Baby only"], },
 			{ name: "Modern", price: 285, includes: ["60 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more", "Option for adding in siblings & parents no extra charge"], },
