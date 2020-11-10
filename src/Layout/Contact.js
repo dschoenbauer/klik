@@ -22,6 +22,15 @@ export default class Contact extends Component {
 						<input type="hidden" name="form-name" value="mailing-list" />
 					</form>,
 				</div>
+				<div className="contact__location contact__section">
+					<h2 className="text-center title">OUR LOCATION</h2>
+					<iframe
+						className="contact__map"
+						title="map location"
+						frameBorder="0"
+						src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7wfn5mf39ocRWNelgfWoGh8&key=AIzaSyCz0CP-456jIxMFjce2NZkjUgZdUfDDnpA"
+						allowFullScreen></iframe>
+				</div>
 				<div className="contact__address contact__section">
 					<h2 className="contact__address-title title">ADDRESS</h2>
 					<address className="contact__address">
@@ -33,15 +42,7 @@ export default class Contact extends Component {
 						<Phone className="contact__link" telephone={telephone}>Call</Phone> or <SMS className="contact__link" telephone={telephone} message="Hello Krystle-">Text</SMS>
 					</address>
 				</div>
-				<div className="contact__location contact__section">
-					<h2 className="text-center title">OUR LOCATION</h2>
-					<iframe
-						className="contact__map"
-						title="map location"
-						frameBorder="0"
-						src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7wfn5mf39ocRWNelgfWoGh8&key=AIzaSyCz0CP-456jIxMFjce2NZkjUgZdUfDDnpA"
-						allowFullScreen></iframe>
-				</div>
+
 			</div>
 		</div>
 	}
