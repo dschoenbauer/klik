@@ -21,11 +21,9 @@ export default class Menu extends Component {
 	}
 
 	render() {
-		const menuItems = MenuData.menu.map((menu, idx) => {
-			return this.getMenuItem(menu, idx);
-		})
-		return <nav className="menu">
-			{menuItems}
+		const {className = ""} = this.props;
+		return <nav className={`menu ${className}`}>
+			{MenuData.menu.map((menu, idx) => { return this.getMenuItem(menu, idx);})}
 		</nav>;
 	}
 }

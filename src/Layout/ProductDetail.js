@@ -16,7 +16,6 @@ export default class ProductDetail extends Component {
 	}
 
 	updateSite(key) {
-		console.log(key);
 		const empty = { title: null, products: [], items: [], images: [], disclaimer: [] };
 		const data = Products.hasOwnProperty(key) ? Products[key] : {};
 		this.setState({ ...empty, ...data });
@@ -24,7 +23,6 @@ export default class ProductDetail extends Component {
 
 	render() {
 		if (!this.state) return <div>Loading...</div>;
-		console.log(this.state);
 		const { title, products = [], items = [], images = [], disclaimer = [] } = this.state;
 
 		return <div className="portfolio">

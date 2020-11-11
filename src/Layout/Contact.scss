@@ -1,12 +1,11 @@
 @import "../Component/App.scss";
 
 .contact {
-	padding: 1em;
+	// padding: 1em;
 
 	&-details {
 		display        : flex;
 		justify-content: space-around;
-		max-width      : 800px;
 		margin         : 0 auto;
 		flex-wrap: wrap;
 	}
@@ -17,11 +16,10 @@
 
 	&__map {
 		width : 100%;
-		// height: 100%;
 	}
 
 	&__section {
-		width: 30vw;
+		width: 25vw;
 		min-width: 300px;
 	}
 
