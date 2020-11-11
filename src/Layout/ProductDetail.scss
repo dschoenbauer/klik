@@ -1,6 +1,4 @@
 .portfolio{
-	max-width: 1080px;
-	margin: 0 auto;
 	&__title, &__sub-title{
 		text-align: center;
 		text-transform: uppercase;
@@ -37,6 +35,12 @@
 			flex-direction: row;
 		}
 
+	}
+
+	&__disclaimer{
+		@media (max-width: 768px) {
+			padding: 1em;
+		}
 	}
 	
 	&__image-frame{ //li

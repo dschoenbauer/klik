@@ -16,15 +16,14 @@ export default class ProductDetail extends Component {
 	}
 
 	updateSite(key) {
-		console.log(key);
+		const empty = { title: null, products: [], items: [], images: [], disclaimer: [] };
 		const data = Products.hasOwnProperty(key) ? Products[key] : {};
-		this.setState(data);
+		this.setState({ ...empty, ...data });
 	}
 
 	render() {
 		if (!this.state) return <div>Loading...</div>;
-		console.log(this.state);
-		const { title, products = [], items = [], images = [] } = this.state;
+		const { title, products = [], items = [], images = [], disclaimer = [] } = this.state;
 
 		return <div className="portfolio">
 			<h1 className="portfolio__title">{title}</h1>
@@ -42,15 +41,12 @@ export default class ProductDetail extends Component {
 					</ul>
 				</div>
 			}
+			{disclaimer.map((lineItem, key) => <p key={key} className="portfolio__disclaimer" dangerouslySetInnerHTML={{ __html: lineItem }}></p>)}
 
 			<ul className="portfolio__gallery">
 				{images.map((image, key) => <li key={key} className="portfolio__image-frame"><img className="portfolio__image" loading="lazy" src={image} alt={image} /></li>)}
 				<li></li>
 			</ul>
 		</div>;
-	}
-
-	getAdditionalItems() {
-
 	}
 }

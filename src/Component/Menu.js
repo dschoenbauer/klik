@@ -14,17 +14,15 @@ export default class Menu extends Component {
 			childrenDom = <ul className="menu__sub-menu">{items}</ul>;
 		}
 		return <li key={idx} className="menu__item">
-			<NavLink  className="menu__link" activeClassName="menu__link--active" to={route}>{label}</NavLink >
-			{childrenDom}
+			<NavLink  className="menu__link" activeClassName="menu__link--active" to={route} onClick={this.props.handler} >{label}</NavLink >
+ 			{childrenDom}
 		</li>;
 	}
 
 	render() {
-		const menuItems = MenuData.menu.map((menu, idx) => {
-			return this.getMenuItem(menu, idx);
-		})
-		return <nav className="menu">
-			{menuItems}
+		const {className = ""} = this.props;
+		return <nav className={`menu ${className}`}>
+			{MenuData.menu.map((menu, idx) => { return this.getMenuItem(menu, idx);})}
 		</nav>;
 	}
 }

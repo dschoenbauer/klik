@@ -1,67 +1,55 @@
 @import 'App.scss';
 
 .header {
-	max-width: 1080px;
-	margin: 0 auto;
 	background-color: $menu-background-color;
-	display: grid;
-	@media (max-width: 768px) {
-		grid-template-areas: 'image navigation' 'social social';
-		grid-template-columns: max-content auto;  
-		grid-template-rows: auto auto;  
-	}
-	grid-template-areas: "image navigation social";
-	grid-template-columns: 1fr 4fr 1fr;
-	
+	display         : grid;
+
+	grid-template-areas  : "image navigation";
+	grid-template-columns: 1fr 4fr;
+
+
 	&__image-container {
-		padding: 0.5em;
+		padding  : 0.5em;
 		grid-area: image;
 	}
+
 	&__image {
 		width: 100px;
 	}
 
-	&__navigation{
+	&__navigation {
 		grid-area: navigation;
-		
-		display: flex;
-		flex-direction: row;
+
+		display        : flex;
+		flex-direction : row;
 		justify-content: space-around;
-		align-items: center;
-		gap: 1em;
-	
-		list-style-type: none;
-	}
-	
-	&__navigation-item a{
-		text-decoration: none;
-	
-	}
-	&__navigation-item a:visited{
-		color: var(--primary-color)
-	}
-	
-	&__social{
-		grid-area: social;		
-		margin: 0;
-		padding: 0;
-		display: flex;
-		flex-direction: row;
-		
-		align-items: center;
-		justify-content: space-around;
-		@media (max-width: 768px) {
-			margin-bottom: 2em;
-		}
-	}
-	&__social-item{
+		align-items    : center;
+		gap            : 1em;
+
 		list-style-type: none;
 
-		a{
-			@include normal-text;
-		}
-		i{
-			font-size: 1.5em;
+	}
+
+	&__navigation-item a {
+		text-decoration: none;
+
+	}
+
+	&__navigation-item a:visited {
+		color: var(--primary-color)
+	}
+
+
+	&__menu-control {
+		display: none;
+
+		@media (max-width: 780px) {
+			display: block;
+			align-self: center;
+			justify-self: end;
+			padding: 1em;
+			@include link();
 		}
 	}
 }
+

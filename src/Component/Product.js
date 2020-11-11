@@ -8,9 +8,7 @@ export default class Product extends Component {
 		return <div className='product'>
 			<h2 className="product__title">{title}</h2>
 			<ul className="product__includes">
-				{includes.map((include, idx) => {
-					return <li key={idx} className="product__inclusion">{include}</li>
-				})}
+				{includes.map((include, idx) => <li key={idx} className="product__inclusion">{include}</li>)}
 			</ul>
 		</div>
 	}

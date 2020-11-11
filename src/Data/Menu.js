@@ -19,7 +19,8 @@ export const Menu = {
 				{ label: "Cake Smash", route: pp(ProductLinks.CakeSmash)},
 				{ label: "Fresh 48", route: pp(ProductLinks.Fresh48)},
 				{ label: "Family", route: pp(ProductLinks.Family)},
-				{ label: "New born", route: pp(ProductLinks.NewBorn)},
+				{ label: "Newborn", route: pp(ProductLinks.NewBorn)},
+				{ label: "Boudoir", route: ProductLinks.Boudoir, children: [] },
 			]
 		},
 		{ label: "Contact", route: "/contact"},
