@@ -1,0 +1,123 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap";
+
+$menu-background-color: #fefefe;
+$text-color: #000000;
+$focused-color: #00000088;
+$focused-background-color: lightGray;
+
+@mixin border-styling {
+	border-radius: 0.5em;
+}
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@mixin link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: $text-color;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+@mixin title-text{
+	font-size: 2em;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@mixin normal-text{
+	font-size: 1em;
+	color: $text-color;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+	// min-width: 100vw;
+	min-height: 100vh;
+}
+
+.title{
+	@include title-text();
+	text-align: center;
+}
+
+.about{
+	margin: 0 auto;
+	@media (max-width: 780px) {
+		width: calc(100% - 2em);
+		margin: 0 1em;
+	}
+
+	
+	text-align: justify;
+	text-justify: inter-word;
+
+	&__content{
+		@include normal-text;
+	}
+}
+
+.App{
+	display: grid;
+	grid-template-areas: "header social" "content content";
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
+	@media (max-width: 780px) {
+		grid-template-areas: "header" "content" "social";
+		grid-template-columns: auto;
+		grid-template-rows: auto minmax(100vh,auto) auto;	
+	}
+
+
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.content{
+	grid-area: content;
+}
+
+.header{
+	grid-area: header;
+	position: sticky;
+	top: 0;
+
+	@media (max-width: 780px) {
+	}
+}
+
+.social{
+	position: sticky;
+	top: 0;
+	bottom: auto;
+	background-color: white;
+
+	@media (max-width: 780px) {
+		top: auto;
+		bottom: 0;
+		padding: 1em 0;
+	}
+	grid-area: social;		
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+	justify-content: space-around;
+	&__item{
+		list-style-type: none;
+		
+		a{
+			@include normal-text;
+		}
+		i{
+			font-size: 1.5em;
+		}
+	}
+}

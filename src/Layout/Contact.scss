@@ -1,0 +1,65 @@
+@import "../Component/App.scss";
+
+.contact {
+	// padding: 1em;
+
+	&-details {
+		display        : flex;
+		justify-content: space-around;
+		margin         : 0 auto;
+		flex-wrap: wrap;
+	}
+
+	&__address {
+		@include normal-text();
+	}
+
+	&__map {
+		width : 100%;
+	}
+
+	&__section {
+		width: 25vw;
+		min-width: 300px;
+	}
+
+	&__link {
+		@include link;
+	}
+}
+
+.form {
+	display       : flex;
+	flex-direction: column;
+	padding: 0 1em 0;
+	&__element {
+		margin : 0 0 1em;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	&__label{
+		@include normal-text();
+		grid-column: 1 / 2;
+	}
+	
+	&__input{
+		grid-column: 2 / 4;
+		padding: 2px;
+		width: calc(100% - 4px);
+		border-radius: 0.25em;
+	}
+
+	input[type=text],
+	input[type=email],
+	textarea{
+		border: $text-color solid 1px;
+	}
+
+	textarea{
+		resize: none;
+	}
+
+	&__button{
+		grid-column: 3 / 4;
+	}
+}

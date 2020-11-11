@@ -1,0 +1,82 @@
+@import "App.scss";
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	@media (max-width: 780px) {
+		display: none;
+		&--active{
+			display: inline-block;
+			position: absolute;
+			z-index: 100;
+			top: 4em;
+			right: 0;
+			left: 0;
+			background-color: white;
+			.menu__item:hover > .menu__sub-menu{
+				display: block;
+			}
+			.menu__sub-menu{
+				background-color: white;
+				border: none;
+
+				background-color: none;
+				display: block;
+				position: static;
+				&:hover{
+					display: block;
+				}
+			}
+			
+		}
+	}
+
+	&__item{
+		list-style: none;
+		position: relative;
+		padding: 10px;
+	}
+	&__link{
+		@include normal-text;
+		text-decoration: none;
+		text-transform: uppercase;
+		&--active{
+			color:$focused-color;
+			font-weight: bold;
+		}
+		&:hover{
+			opacity: 0.8;;
+		}
+	}
+	&__item:hover > &__sub-menu{
+		display: inline-block;
+	}
+	&__sub-menu{
+		display: none;
+		position: absolute;
+		top: 2.5em;
+		left: 0;
+		background-color: $focused-background-color;
+		transition: all 0.5s ease-out;
+		
+		border-radius: 0 0 0.5em 0.5em ;
+		
+		background: rgb(255,255,255);
+		background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(251,251,251,1) 100%);
+
+		border-left: lightgray 1px solid;
+		border-bottom: black 1px solid;
+		border-right: black 1px solid;
+		
+		padding: 0;
+		margin: 0;
+		&>.menu__item{
+			padding: 10px 10px 0;
+			&:last-of-type{
+				padding-bottom: 10px;
+			}
+		}
+	}
+}

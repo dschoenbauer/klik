@@ -1,30 +1,56 @@
 import React from 'react';
-import logo from './img/logo.png';
 import './App.css';
+import Footer from './Component/Footer.js';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route
+} from "react-router-dom";
+
+import Header from './Component/Header';
+import Contact from './Layout/Contact';
+import Product from './Layout/Product';
+import ProductDetail from './Layout/ProductDetail';
+import data from './Data/Data.json'
+
+import { Phone } from './Component/Contact/Phone';
+import { SMS } from './Component/Contact/SMS';
+import { Facebook } from './Component/Contact/Facebook';
+import { Location } from './Component/Contact/Location';
+import ScrollToTop from './Component/ScrollToTop';
+import Home from './Layout/Home';
+import Studio from './Layout/About/Studio';
+import Photographer from './Layout/About/Photographer';
 
 function App() {
-	let telephone = "507-210-7087";
-	let props = {
-			telephone: {target:"_blank", href: `tel:${telephone}`},
-			facebook: {target:"_blank", href: `https://www.facebook.com/photosbyklikfoley/`},
-			map: {target:"_blank", href: `https://www.google.com/maps/place/Klik+Photography/@44.209971,-93.219646,15z/data=!4m5!3m4!1s0x0:0x1f1aa8f581a5d758!8m2!3d44.209971!4d-93.219646`}
-		}
-  return (
-    <div className="App">
-      <header className="App__header">
-		  <img className="App__logo" alt="Klik logo" src={logo} />
-        <h1 className="App__content">Site under construction.</h1>
-        <p className="App__content">Oh... good things are coming.</p>
-        <p className="App__content">Please forgive the mess while we build a new updated site.</p>
-      </header>
-	  <div className="App_actions">
-	  		<a className="App_action" {...props.telephone}><i className="fa fa-phone"></i> {telephone}</a>
-	  		<a className="App_action"  {...props.facebook}><i className="fab fa-facebook"></i></a>
-	  		<a className="App_action"  {...props.map}><i className="fas fa-map-marker-alt"></i></a>
-		</div>
+	const { about: { facebook, telephone, location } } = data;
 
-    </div>
-  );
+	return (
+		<div className="App">
+			<Router>
+				<ScrollToTop />
+				<Header className="header"></Header>
+				<ul className="social">
+					<li className="social__item"><Facebook href={facebook}></Facebook> </li>
+					<li className="social__item"><Phone telephone={telephone}></Phone> </li>
+					<li className="social__item"><SMS telephone={telephone} message="Hello Krystle-"></SMS> </li>
+					<li className="social__item"><Location href={location}></Location> </li>
+				</ul>
+				<div className="content">
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route exact path="/about" component={Photographer} />
+						<Route path="/about/studio" component={Studio} />
+						<Route path="/about/photographer" component={Photographer} />
+						<Route path="/contact" component={Contact} />
+						<Route exact path="/portfolio" component={Product} />
+						<Route path="/portfolio/:portfolio" component={ProductDetail} />
+					</Switch>
+				</div>
+				<Footer></Footer>
+			</Router>
+		</div>
+	);
 }
 
 export default App;

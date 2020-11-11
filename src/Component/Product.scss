@@ -1,0 +1,35 @@
+@import "../Component/App.scss";
+.products {
+	display: flex;
+	justify-content: space-around;
+	@media (max-width: 768px) {
+		justify-content: space-around;
+	}
+	flex-wrap: wrap;
+}
+.product {
+	margin-bottom: 1em;
+	width: 22em;
+	border: #000000ee 1px solid;
+	border-radius: 1em;
+	padding: 0.5em;
+	&__title {
+		margin: 0 0 0.25em;
+		font-size: 1.2em;
+		white-space: pre-line;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	&__includes {
+		margin: 0;
+		padding-left: 2em;
+		// list-style-type: none;
+	}
+	&__inclusion {
+		padding-bottom: 0.1em;
+		margin-bottom: 0.1em;
+
+		// text-align: center;
+		text-justify: inter-word;
+	}
+}

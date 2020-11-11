@@ -1,0 +1,55 @@
+@import 'App.scss';
+
+.header {
+	background-color: $menu-background-color;
+	display         : grid;
+
+	grid-template-areas  : "image navigation";
+	grid-template-columns: 1fr 4fr;
+
+
+	&__image-container {
+		padding  : 0.5em;
+		grid-area: image;
+	}
+
+	&__image {
+		width: 100px;
+	}
+
+	&__navigation {
+		grid-area: navigation;
+
+		display        : flex;
+		flex-direction : row;
+		justify-content: space-around;
+		align-items    : center;
+		gap            : 1em;
+
+		list-style-type: none;
+
+	}
+
+	&__navigation-item a {
+		text-decoration: none;
+
+	}
+
+	&__navigation-item a:visited {
+		color: var(--primary-color)
+	}
+
+
+	&__menu-control {
+		display: none;
+
+		@media (max-width: 780px) {
+			display: block;
+			align-self: center;
+			justify-self: end;
+			padding: 1em;
+			@include link();
+		}
+	}
+}
+
