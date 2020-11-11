@@ -16,14 +16,15 @@ export default class Header extends Component {
 		console.log(this.state);
 	}
 	render() {
+		let activeClass = this.state.isActive ? "fa fa-times" : "fa fa-bars" ;
 		return <header {...this.props}>
 			<div className="header__image-container">
 				<Link to="/">
 					<img className="header__image" alt="logo" src={logo} />
 				</Link>
 			</div>
-			<Menu className={`${this.state.isActive ? "menu--active" : ""}`}></Menu>
-			<Link className="header__menu-control" to="#" onClick={() => this.toggleMenu()}><i className="fa fa-bars"></i></Link>
+			<Menu className={`${this.state.isActive ? "menu--active" : ""}`} handler={() => this.toggleMenu()}></Menu>
+			<Link className="header__menu-control" to="#" onClick={() => this.toggleMenu()}><i className={activeClass}></i></Link>
 		</header>;
 	}
 }

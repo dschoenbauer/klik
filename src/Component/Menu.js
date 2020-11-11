@@ -15,7 +15,7 @@ export default class Menu extends Component {
 		}
 		const path = (parentRoot ? parentRoot : "") + `/${route}`;
 		return <li key={idx} className="menu__item">
-			<NavLink  className="menu__link" activeClassName="menu__link--active" to={path}>{label}</NavLink >
+			<NavLink  className="menu__link" activeClassName="menu__link--active" to={path} onClick={this.props.handler} >{label}</NavLink >
 			{childrenDom}
 		</li>;
 	}
