@@ -7,7 +7,6 @@ import {
 	Route
 } from "react-router-dom";
 
-import Menu from './Component/Menu.js';
 import Header from './Component/Header';
 import About from './Layout/About.js';
 import Contact from './Layout/Contact';
