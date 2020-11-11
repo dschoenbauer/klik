@@ -18,6 +18,7 @@ import { Phone } from './Component/Contact/Phone';
 import { SMS } from './Component/Contact/SMS';
 import { Facebook } from './Component/Contact/Facebook';
 import { Location } from './Component/Contact/Location';
+import ScrollToTop from './Component/ScrollToTop';
 
 function App() {
 	const { about: { facebook, telephone, location } } = data;
@@ -25,6 +26,7 @@ function App() {
 	return (
 		<div className="App">
 			<Router>
+				<ScrollToTop />
 				<Header className="header"></Header>
 				<ul className="social">
 					<li className="social__item"><Facebook href={facebook}></Facebook> </li>
