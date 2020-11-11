@@ -3,6 +3,7 @@ import { ProductLinks } from "./ProductLinks";
 export const Products = {
 	[ProductLinks.Seniors]: {
 		title: "Senior",
+		subTitle: "These are the greatest time of your life",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "1 outfit", "5 digitals", "Print release",] },
 			{ name: "Modern ", price: 350, includes: ["30 minutes", "2 outfits", "15 digitals", "Print release", "Option to add all digitals for $50 more"] },
@@ -59,6 +60,7 @@ export const Products = {
 	},
 	[ProductLinks.Engagement]: {
 		title: "Engagement",
+		subTitle: "May your love story continue forever",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
@@ -98,6 +100,7 @@ export const Products = {
 
 	[ProductLinks.Wedding]: {
 		title: "Wedding ceremony",
+		subTitle: "Where there is love there is life",
 		products: [
 			{
 				name: "Silver", price: 1200, includes: [
@@ -177,6 +180,7 @@ export const Products = {
 	},
 	[ProductLinks.CakeSmash]: {
 		title: "Cake SMASH!",
+		subTitle: "uh... you got a little something there",
 		products: [
 			{
 				name: "Mini", price: 150, includes: [
@@ -212,6 +216,7 @@ export const Products = {
 			{ name: "Modern", price: 175, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $50 more"], },
 			{ name: "Complete", price: 265, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
+		subTitle: "I've never loved anybody the way I love my children.",
 		items: [],
 		disclaimer: [],
 		images: [
@@ -250,6 +255,7 @@ export const Products = {
 	},
 	[ProductLinks.Maternity]: {
 		title: "Maternity",
+		subTitle: "...because you love them bigger than any world or sky.", 
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
@@ -281,6 +287,7 @@ export const Products = {
 	},
 	[ProductLinks.Professional]: {
 		title: "Professional",
+		subTitle:"For when they need to see you at your best",
 		products: [
 			{ name: "Mini", price: 50, includes: ["5 minutes", "1 digital", "Print release"], },
 			{ name: "Modern", price: 100, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
@@ -305,6 +312,7 @@ export const Products = {
 	},
 	[ProductLinks.Family]: {
 		title: "Family",
+		subTitle: "They are your sunshine.",
 		products: [
 			{ name: "Mini", price: 175, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
@@ -353,6 +361,7 @@ export const Products = {
 			{ name: "Modern", price: 285, includes: ["60 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more", "Option for adding in siblings & parents no extra charge"], },
 			{ name: "Complete", price: 400, includes: ["120 minutes", "All digitals", "Print release", "Option for adding in siblings & parents no extra charge"], },
 		],
+		subTitle: "With every newborn baby, a little sun rises",
 		items: [],
 		images: ["/img/new_born/1.jpg",
 			"/img/new_born/2.jpg",
@@ -388,6 +397,7 @@ export const Products = {
 	},
 	[ProductLinks.Fresh48]: {
 		title: "Fresh 48",
+		subTitle: "Your first breath took ours away",
 		products: [
 			{ name: "With a newborn session", price: 150, includes: [], },
 			{ name: "Without a newborn session", price: 200, includes: [], },

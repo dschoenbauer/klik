@@ -20,7 +20,7 @@ export const Menu = {
 				{ label: "Fresh 48", route: pp(ProductLinks.Fresh48)},
 				{ label: "Family", route: pp(ProductLinks.Family)},
 				{ label: "Newborn", route: pp(ProductLinks.NewBorn)},
-				{ label: "Boudoir", route: ProductLinks.Boudoir, children: [] },
+				{ label: "Boudoir", route: pp(ProductLinks.Boudoir)},
 			]
 		},
 		{ label: "Contact", route: "/contact"},

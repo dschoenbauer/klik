@@ -47,7 +47,6 @@ html,body{
 }
 
 .about{
-	width: 60vw;
 	margin: 0 auto;
 	@media (max-width: 780px) {
 		width: calc(100% - 2em);
@@ -57,6 +56,10 @@ html,body{
 	
 	text-align: justify;
 	text-justify: inter-word;
+
+	&__content{
+		@include normal-text;
+	}
 }
 
 .App{

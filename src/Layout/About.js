@@ -13,6 +13,6 @@ export default class About extends Component {
 			<p className="about__content">Being that Krystle is all self taught in photography ( besides for a newborn safety and posing workshop ) her work continues to evolve as she is learning, as well as her studio space! </p>
 			<p className="about__content">She started the business out of her home offering photo shoots to friends &amp; family. Her small business took off very fast and soon needed to get into a larger space to grow. Krystle got into a space at the Faribo West Mall, and within 6 months, moved to a space triple the size of the original mall space only to soon outgrow that one as well. KLiK is currently in a space on Central Ave in downtown Faribault. </p>
 			<p className="about__content">Her bubbly, fun, outgoing personality keeps her customers coming back and feeling more like friends and family! Whether you are someone who has been coming to her for photos since she started or a new customer you will be greeted with a smile, and always welcomed at KLiK.</p>
-		</div>;
+		</div>
 	}
 }

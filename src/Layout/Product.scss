@@ -1,0 +1,55 @@
+@import "../Component/App.scss";
+.product-cards{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.product-card{
+	display:grid;
+	width: 33%;
+	@include link();
+	overflow: hidden;
+	margin: 0 0 2em;
+	@media (max-width: 780px) {
+		width: 50%;
+	}
+	@media (max-width: 625px) {
+		width: 100%;
+	}
+	grid-template-columns: auto;
+	grid-template-rows: max-content 5em auto;
+	
+	&__image{
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;		
+
+		object-fit: cover;
+		width: 100%;
+		height: 50vh;
+	}
+
+	&__title{
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+
+
+		@include title-text();
+	}
+
+	&__text{
+		grid-column: 1 / 2;
+		grid-row: 3 / 4;
+	}
+
+	&__title, &__text{
+		overflow: hidden;
+		align-self: center;
+		justify-self: center;
+		text-align: center;
+
+		padding: 0;
+		margin: 0;
+
+	}
+}

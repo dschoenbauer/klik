@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 
 import Header from './Component/Header';
-import About from './Layout/About.js';
 import Contact from './Layout/Contact';
 import Product from './Layout/Product';
 import ProductDetail from './Layout/ProductDetail';
@@ -19,6 +18,9 @@ import { SMS } from './Component/Contact/SMS';
 import { Facebook } from './Component/Contact/Facebook';
 import { Location } from './Component/Contact/Location';
 import ScrollToTop from './Component/ScrollToTop';
+import Home from './Layout/Home';
+import Studio from './Layout/About/Studio';
+import Photographer from './Layout/About/Photographer';
 
 function App() {
 	const { about: { facebook, telephone, location } } = data;
@@ -36,8 +38,10 @@ function App() {
 				</ul>
 				<div className="content">
 					<Switch>
-						<Route exact path="/" component={Product} />
-						<Route path="/about" component={About} />
+						<Route exact path="/" component={Home} />
+						<Route exact path="/about" component={Photographer} />
+						<Route path="/about/studio" component={Studio} />
+						<Route path="/about/photographer" component={Photographer} />
 						<Route path="/contact" component={Contact} />
 						<Route exact path="/portfolio" component={Product} />
 						<Route path="/portfolio/:portfolio" component={ProductDetail} />
