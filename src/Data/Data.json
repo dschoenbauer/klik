@@ -1,5 +1,5 @@
 {
-    "title": "KLiK photography",
+    "title": "KLiK Photography",
     "about": {
         "logo": "img/logo2.svg",
         "contact": "Krystle",
@@ -17,5 +17,12 @@
         "location": "https://goo.gl/maps/6rWnbt5Doxnpeac7A",
         "email": "",
         "facebook": "https://www.facebook.com/photosbyklikfoley/"
-    }
+    },
+    "allProduct":[
+        "-- Weekend sessions add $20 --",
+        "Digital images mean that you get the digital file & printing rights to the image. With the digital image & printing rights, you can share on social media, email your photos to friends & family, or make prints where ever you would like to, & as many copies as you want.  Having the digitals also means that in 5-10+ years, if you would like to have more prints made, you can do so with your digitals. Most likely, KLiK wont have your images stored that far down the road. ",
+        "Get a 25% off code for professional prints, canvases, buttons, magnets & more with your print release.  You can order these easily in your online gallery & do an online checkout. Have them shipped directly to you, or pick them up at the studio. ",
+        "Contact us to book your session now <a href='tel:(507)210-7087'>(507)210-7087</a>"
+    ]
+    
 }

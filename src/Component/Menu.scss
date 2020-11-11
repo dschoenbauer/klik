@@ -8,6 +8,9 @@
 	@media (max-width: 780px) {
 		display: none;
 		&--active{
+			overflow-x: scroll;
+			height: calc(100vh - 7em);
+
 			display: inline-block;
 			position: absolute;
 			z-index: 100;

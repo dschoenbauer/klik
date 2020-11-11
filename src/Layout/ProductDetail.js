@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Products } from '../Data/Products';
+import Data from '../Data/Data.json';
 import Product from '../Component/Product';
 import "./ProductDetail.scss";
 
@@ -18,7 +19,7 @@ export default class ProductDetail extends Component {
 	updateSite(key) {
 		const empty = { title: null, products: [], items: [], images: [], disclaimer: [] };
 		const data = Products.hasOwnProperty(key) ? Products[key] : {};
-		this.setState({ ...empty, ...data });
+		this.setState({ ...empty, ...data, ...{ personalData: Data } });
 	}
 
 	render() {
@@ -42,6 +43,7 @@ export default class ProductDetail extends Component {
 				</div>
 			}
 			{disclaimer.map((lineItem, key) => <p key={key} className="portfolio__disclaimer" dangerouslySetInnerHTML={{ __html: lineItem }}></p>)}
+			{this.state.personalData.allProduct.map((lineItem, key) => <p key={key} className="portfolio__disclaimer" dangerouslySetInnerHTML={{ __html: lineItem }}></p>)}
 
 			<ul className="portfolio__gallery">
 				{images.map((image, key) => <li key={key} className="portfolio__image-frame"><img className="portfolio__image" loading="lazy" src={image} alt={image} /></li>)}

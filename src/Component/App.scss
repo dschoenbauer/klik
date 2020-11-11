@@ -60,6 +60,12 @@ html,body{
 	&__content{
 		@include normal-text;
 	}
+
+	&__image{
+		float: left;
+		width: 50%;
+		margin: 0 1em 1em 0;
+	}
 }
 
 .App{

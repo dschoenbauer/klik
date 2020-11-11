@@ -13,7 +13,7 @@ export const Products = {
 		items: [],
 		disclaimer: [
 			"At KLiK, if you have anything that you are very passionate about we would love to include that into your senior photos to show off exactly who you are!",
-			"We like to have fun with the seniors that come into KLiK whether its in the studio or on location! Are you looking for fun colorful portraits, more traditional, or a mixture of both? We've got you covered! At KLiK we have over 130 backdrops to choose from and many more spots around town that we have already scoped out that seniors and their parents just love!"
+			"We like to have fun with the seniors that come into KLiK whether its in the studio or on location! Are you looking for fun colorful portraits, more traditional, or a mixture of both? We've got you covered! At KLiK we have over 200 backdrops to choose from and many more spots around town that we have already scoped out that seniors and their parents just love!"
 
 		],
 		images: [
@@ -64,7 +64,6 @@ export const Products = {
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
-			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
 		],
 		disclaimer:[
 			"Congratulations on your engagement! What an exciting time in your life - You've found the one you want to spend forever with, now let the planning begin!",
@@ -192,7 +191,7 @@ export const Products = {
 			},
 		],
 		items: [
-			"You can do a cake smash in a 30 or 60 minute CHILD session for just $10 more.",
+			"You can do a cake smash in a 30 or 60 minute CHILD session for just $10 more",
 			"Cake smashes will take about 15 minutes of your 30 or 60 minute session",
 		],
 		disclaimer: [],
@@ -216,7 +215,7 @@ export const Products = {
 			{ name: "Modern", price: 175, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $50 more"], },
 			{ name: "Complete", price: 265, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
-		subTitle: "I've never loved anybody the way I love my children.",
+		subTitle: "I've never loved anybody the way I love my children",
 		items: [],
 		disclaimer: [],
 		images: [
@@ -255,7 +254,7 @@ export const Products = {
 	},
 	[ProductLinks.Maternity]: {
 		title: "Maternity",
-		subTitle: "...because you love them bigger than any world or sky.", 
+		subTitle: "...because you love them bigger than any world or sky", 
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
@@ -312,7 +311,7 @@ export const Products = {
 	},
 	[ProductLinks.Family]: {
 		title: "Family",
-		subTitle: "They are your sunshine.",
+		subTitle: "They are your sunshine",
 		products: [
 			{ name: "Mini", price: 175, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
