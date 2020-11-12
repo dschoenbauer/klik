@@ -428,7 +428,6 @@ export const Products = {
 		],
 		disclaimer:["To protect our clients and maintain respect, we do not showcase this gallery.  We like to keep these photos special for the people who get them taken and the person they are taking them for. We can guarantee you that these photos are the same great KLiK quality."],
 		items: [
-			"A minimum print order of $125",
 			"(Wallet size prints up to wall art available)"
 		],
 		images: []
