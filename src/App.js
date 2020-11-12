@@ -1,4 +1,6 @@
 import React from 'react';
+import Analytics from 'react-router-ga';
+
 import './App.css';
 import Footer from './Component/Footer.js';
 import {
@@ -22,7 +24,10 @@ import Home from './Layout/Home';
 import Studio from './Layout/About/Studio';
 import Photographer from './Layout/About/Photographer';
 
+
+
 function App() {
+	const id = 'UA-87907665-1';
 	const { about: { facebook, telephone, location } } = data;
 
 	return (
@@ -37,15 +42,17 @@ function App() {
 					<li className="social__item"><Location href={location}></Location> </li>
 				</ul>
 				<div className="content">
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route exact path="/about" component={Photographer} />
-						<Route path="/about/studio" component={Studio} />
-						<Route path="/about/photographer" component={Photographer} />
-						<Route path="/contact" component={Contact} />
-						<Route exact path="/portfolio" component={Product} />
-						<Route path="/portfolio/:portfolio" component={ProductDetail} />
-					</Switch>
+					<Analytics id={id}>
+						<Switch>
+							<Route exact path="/" component={Home} />
+							<Route exact path="/about" component={Photographer} />
+							<Route path="/about/studio" component={Studio} />
+							<Route path="/about/photographer" component={Photographer} />
+							<Route path="/contact" component={Contact} />
+							<Route exact path="/portfolio" component={Product} />
+							<Route path="/portfolio/:portfolio" component={ProductDetail} />
+						</Switch>
+					</Analytics>
 				</div>
 				<Footer></Footer>
 			</Router>
