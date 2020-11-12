@@ -18,7 +18,7 @@
 		width: 100%;
 	}
 	grid-template-columns: auto;
-	grid-template-rows: max-content 5em auto;
+	grid-template-rows: max-content max-content max-content;
 	
 	&__image{
 		grid-column: 1 / 2;
@@ -33,18 +33,19 @@
 		grid-column: 1 / 2;
 		grid-row: 2 / 3;
 
+		align-self: center;
 
 		@include title-text();
 	}
 
 	&__text{
+		align-self: top;
 		grid-column: 1 / 2;
 		grid-row: 3 / 4;
 	}
 
 	&__title, &__text{
 		overflow: hidden;
-		align-self: center;
 		justify-self: center;
 		text-align: center;
 

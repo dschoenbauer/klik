@@ -420,13 +420,15 @@ export const Products = {
 	[ProductLinks.Boudoir]: {
 		title: "Boudoir",
 		products: [
-			{ name: "30 minute session", price: 65, includes: ["10 digital images and printing release $175", "All digital images and printing release $275"], },
-			{ name: "60 minute session", price: 95, includes: ["10 digital images and printing release $175", "All digital images and printing release $275"], },
+			{ name: "Silver", price: 225, includes: ["30 minute", "10 digitals", "Print release"], },
+			{ name: "Modern", price: 300, includes: ["30 minute", "All digitals", "Print release"], },
+			{ name: "Diamond", price: 275, includes: ["60 minute", "10 digitals", "Print release"], },
+			{ name: "Complete", price: 375, includes: ["60 minute", "All digitals", "Print release"], },
+
 		],
 		disclaimer:["To protect our clients and maintain respect, we do not showcase this gallery.  We like to keep these photos special for the people who get them taken and the person they are taking them for. We can guarantee you that these photos are the same great KLiK quality."],
 		items: [
 			"A minimum print order of $125",
-			"Add hair and make up onto any package for $75",
 			"(Wallet size prints up to wall art available)"
 		],
 		images: []

@@ -10,14 +10,13 @@ export default class Product extends Component {
 	}
 
 	getProductCard(product, idx) {
-		const {images = [], key, title, subTitle = ""} = product;
+		const {images = [], key, title} = product;
 		const isOdd = idx % 2 === 0;
 		const image = images[Math.floor(images.length * Math.random())];
 		if(!image) return null;
 		return <a key={key} href={`/portfolio/${key}`} className={`product-card ${isOdd ? "product-card--odd" : ""}`}>
 				<img className="product-card__image" alt={title} src={image}></img>
 			<h2 className="product-card__title">{title}</h2>
-			<p className="product-card__text">{subTitle}</p>
 		</a>
 	}
 
