@@ -12,7 +12,7 @@ export const Products = {
 		],
 		items: [],
 		disclaimer: [
-			"At KLiK, if you have anything that you are very passionate about we would love to include that into your senior photos to show off exactly who you are!",
+			"At KLiK, if there is anything that you are very passionate about, we would love to include that into your senior photos to show off exactly who you are!",
 			"We like to have fun with the seniors that come into KLiK whether its in the studio or on location! Are you looking for fun colorful portraits, more traditional, or a mixture of both? We've got you covered! At KLiK we have over 200 backdrops to choose from and many more spots around town that we have already scoped out that seniors and their parents just love!"
 
 		],
@@ -98,7 +98,7 @@ export const Products = {
 	},
 
 	[ProductLinks.Wedding]: {
-		title: "Wedding ceremony",
+		title: "Wedding",
 		subTitle: "Where there is love there is life",
 		products: [
 			{
@@ -112,7 +112,7 @@ export const Products = {
 			{
 				name: "Diamond", price: 1800, includes: [
 					"6 hours",
-					"2 photographers",
+					"1 photographer",
 					"All digitals",
 					"Print release",
 				]
@@ -142,8 +142,8 @@ export const Products = {
 		],
 		items: [
 			"Order professional lab prints from  your gallery - starting as low as $5 {4x6}, $7 {5x7}",
-			"Second shoot add-on: $50/hr",
-			"Additional wedding day coverage: $200/hr",
+			"Second photographer - add on $75 per hour",
+			"Additional wedding day coverage: $500",
 			"Signature albums start at $300 for a 10x10 40 page, 20 spread lay-flat archival album",
 		],
 		disclaimer: [],

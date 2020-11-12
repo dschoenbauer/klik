@@ -127,3 +127,9 @@ html,body{
 		}
 	}
 }
+.unbreakable{
+	white-space: nowrap;
+}
+.link{
+	@include link;
+}
