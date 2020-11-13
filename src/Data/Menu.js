@@ -26,6 +26,6 @@ export const Menu = {
 			]
 		},
 		{ label: "Contact", route: "/contact" },
-		{ label: "Booking", route: "https://sessionl.ink/klik_photography507", external: true },
+		// { label: "Booking", route: "https://sessionl.ink/klik_photography507", external: true },
 	]
 }
