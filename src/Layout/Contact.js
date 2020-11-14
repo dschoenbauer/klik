@@ -17,7 +17,6 @@ export default class Contact extends Component {
 					<form name="mailing-list" method="post" className="form">
 						<p className="form__element"><label className="form__label">Name:</label><input   className="form__input" type="text" name="name" /></p>
 						<p className="form__element"><label className="form__label">Email:</label><input  className="form__input"  type="email" name="email" /></p>
-						<p className="form__element"><label className="form__label">Message:</label> <textarea  className="form__input"  name="message"></textarea></p>
 						<p className="form__element"><button className="form__button" type="submit">Send</button></p>
 						<input type="hidden" name="form-name" value="mailing-list" />
 					</form>
