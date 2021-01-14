@@ -63,7 +63,7 @@ export const Products = {
 		subTitle: "May your love story continue forever",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
-			{ name: "Modern", price: 200, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
+			{ name: "Modern", price: 200, includes: ["30 minutes", "10 digitals", "Print release", "Outfit change if needed"], },
 		],
 		disclaimer:[
 			"Congratulations on your engagement! What an exciting time in your life - You've found the one you want to spend forever with, now let the planning begin!",
