@@ -46,7 +46,7 @@ export default class ProductDetail extends Component {
 			{this.state.personalData.allProduct.map((lineItem, key) => <p key={key} className="portfolio__disclaimer" dangerouslySetInnerHTML={{ __html: lineItem }}></p>)}
 
 			<ul className="portfolio__gallery">
-				{images.map((image, key) => <li key={key} className="portfolio__image-frame"><img className="portfolio__image" loading="lazy" src={image} alt={image} /></li>)}
+				{images.length > 1 && images.map((image, key) => <li key={key} className="portfolio__image-frame"><img className="portfolio__image" loading="lazy" src={image} alt={image} /></li>)}
 				<li></li>
 			</ul>
 		</div>;
