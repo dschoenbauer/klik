@@ -430,6 +430,6 @@ export const Products = {
 		items: [
 			"(Wallet size prints up to wall art available)"
 		],
-		images: []
+		images: ["/img/boudoir/02.jpg"]
 	}
 }
