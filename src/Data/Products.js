@@ -6,9 +6,9 @@ export const Products = {
 		subTitle: "These are the greatest time of your life",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "1 outfit", "5 digitals", "Print release",] },
-			{ name: "Modern ", price: 350, includes: ["30 minutes", "2 outfits", "15 digitals", "Print release", "Option to add all digitals for $50 more"] },
-			{ name: "Diamond", price: 500, includes: ["60 minutes", "Up to 3 outfit changes", "$300 in print credit", "10 digitals", "Print release",] },
-			{ name: "Complete", price: 750, includes: ["120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print release", "Graduation invite design", "$50 credit for Graduation invites"] },
+			{ name: "Keepsake ", price: 350, includes: ["30 minutes", "2 outfits", "15 digitals", "Print release", "Option to add all digitals for $75 more"] },
+			{ name: "Legacy", price: 500, includes: ["60 minutes", "Up to 3 outfit changes", "$300 in print credit", "10 digitals", "Print release",] },
+			{ name: "Heirloom", price: 750, includes: ["120 minutes", "Unlimited outfit changes", "$400 in print credit", "20 digitals", "Print release", "Graduation invite design", "$50 credit for Graduation invites"] },
 		],
 		items: [],
 		disclaimer: [
@@ -63,8 +63,8 @@ export const Products = {
 		subTitle: "May your love story continue forever",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
-			{ name: "Modern", price: 200, includes: ["30 minutes", "10 digitals", "Print release", "Outfit change if needed"], },
-			{ name: "Golden", price: 325, includes: ["60 minutes", "All digitals", "Print release", "Outfit change if needed"], },
+			{ name: "Keepsake", price: 200, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $75 more", "Outfit change if needed"], },
+			{ name: "Legacy", price: 325, includes: ["60 minutes", "All digitals", "Print release", "Outfit change if needed"], },
 		],
 		disclaimer:[
 			"Congratulations on your engagement! What an exciting time in your life - You've found the one you want to spend forever with, now let the planning begin!",
@@ -103,7 +103,7 @@ export const Products = {
 		subTitle: "Where there is love there is life",
 		products: [
 			{
-				name: "Silver", price: 1200, includes: [
+				name: "Mini", price: 1200, includes: [
 					"4 hours",
 					"1 photographer",
 					"All digitals",
@@ -111,7 +111,7 @@ export const Products = {
 				]
 			},
 			{
-				name: "Diamond", price: 1800, includes: [
+				name: "Keepsake", price: 1800, includes: [
 					"6 hours",
 					"1 photographer",
 					"All digitals",
@@ -119,7 +119,7 @@ export const Products = {
 				]
 			},
 			{
-				name: "Lux", price: 2500, includes: [
+				name: "Legacy", price: 2500, includes: [
 					"8 hours",
 					"2 photographers",
 					"Free engagement session",
@@ -129,7 +129,7 @@ export const Products = {
 				]
 			},
 			{
-				name: "Complete", price: 3400, includes: [
+				name: "Heirloom", price: 3400, includes: [
 					"8 hours",
 					"2 photographers",
 					"$1000 print credit for canvases, photo books, thank you cards & more",
@@ -213,8 +213,8 @@ export const Products = {
 		title: "Little Ones",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
-			{ name: "Modern", price: 175, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $50 more"], },
-			{ name: "Complete", price: 265, includes: ["60 minutes", "All digitals", "Print release"], },
+			{ name: "Keepsake", price: 175, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $75 more"], },
+			{ name: "Legacy", price: 265, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
 		subTitle: "I've never loved anybody the way I love my children",
 		items: [],
@@ -258,8 +258,8 @@ export const Products = {
 		subTitle: "...because you love them bigger than any world or sky", 
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
-			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
-			{ name: "Complete", price: 325, includes: ["60 minutes", "All digitals", "Print release"], },
+			{ name: "Keepsake", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $75 more"], },
+			{ name: "Legacy", price: 325, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
 		items: [],
 		images: [
@@ -290,8 +290,8 @@ export const Products = {
 		subTitle:"For when they need to see you at your best",
 		products: [
 			{ name: "Mini", price: 50, includes: ["5 minutes", "1 digital", "Print release"], },
-			{ name: "Modern", price: 100, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
-			{ name: "Group", includes: ["10-19 people $30 each", "20+ people $25 each", "On location is a $50 set up fee + travel"], },
+			{ name: "Keepsake", price: 100, includes: ["20 minutes", "3 digitals", "Print release", "Outfit change if needed"], },
+			{ name: "Group", includes: ["10-19 people $35 each", "20+ people $30 each", "On location is a $50 set up fee + travel"], },
 		],
 		items: [],
 		images: [
@@ -314,12 +314,12 @@ export const Products = {
 		title: "Family",
 		subTitle: "They are your sunshine",
 		products: [
-			{ name: "Mini", price: 175, includes: ["15 minutes", "5 digitals", "Print release"], },
-			{ name: "Modern", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more"], },
-			{ name: "Complete", price: 350, includes: ["60 minutes", "All digitals", "Print release"], },
+			{ name: "Mini", price: 225, includes: ["15 minutes", "5 digitals", "Print release"], },
+			{ name: "Keepsake", price: 300, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $75 more"], },
+			{ name: "Legacy ", price: 450, includes: ["60 minutes", "All digitals", "Print release"], },
 
-			{ name: 'Extended Family\nModern', price: "300 + $5 per person", includes: ["30 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
-			{ name: 'Extended Family\nComplete', price: "450 + $5 per person", includes: ["60 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
+			{ name: 'Extended Family\nKeepsake', price: "400 + $5 per person", includes: ["30 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
+			{ name: 'Extended Family\nLegacy', price: "550 + $5 per person", includes: ["60 minutes", "All digitals", "Print release", "Grandparents, cousins, Aunts & Uncles etc "], },
 		],
 		items: [],
 		images: [
@@ -358,8 +358,8 @@ export const Products = {
 		title: "Newborn",
 		products: [
 			{ name: "Mini", price: 200, includes: ["30 minutes", "5 digitals", "Print release", "Baby only"], },
-			{ name: "Modern", price: 285, includes: ["60 minutes", "10 digitals", "Print release", "Option to add all digitals for $50 more", "Option for adding in siblings & parents no extra charge"], },
-			{ name: "Complete", price: 400, includes: ["120 minutes", "All digitals", "Print release", "Option for adding in siblings & parents no extra charge"], },
+			{ name: "Keepsake", price: 285, includes: ["60 minutes", "10 digitals", "Print release", "Option to add all digitals for $75 more", "Option for adding in siblings & parents no extra charge"], },
+			{ name: "Legacy", price: 400, includes: ["120 minutes", "All digitals", "Print release", "Option for adding in siblings & parents no extra charge"], },
 		],
 		subTitle: "With every newborn baby, a little sun rises",
 		items: [],
@@ -421,10 +421,10 @@ export const Products = {
 	[ProductLinks.Boudoir]: {
 		title: "Boudoir",
 		products: [
-			{ name: "Silver", price: 225, includes: ["30 minute", "10 digitals", "Print release"], },
-			{ name: "Modern", price: 300, includes: ["30 minute", "All digitals", "Print release"], },
-			{ name: "Diamond", price: 275, includes: ["60 minute", "10 digitals", "Print release"], },
-			{ name: "Complete", price: 375, includes: ["60 minute", "All digitals", "Print release"], },
+			{ name: "Mini", price: 225, includes: ["30 minute", "10 digitals", "Print release"], },
+			{ name: "Keepsake", price: 300, includes: ["30 minute", "All digitals", "Print release"], },
+			{ name: "Legacy", price: 275, includes: ["60 minute", "10 digitals", "Print release"], },
+			{ name: "Heirloom", price: 375, includes: ["60 minute", "All digitals", "Print release"], },
 
 		],
 		disclaimer:["To protect our clients and maintain respect, we do not showcase this gallery.  We like to keep these photos special for the people who get them taken and the person they are taking them for. We can guarantee you that these photos are the same great KLiK quality."],
