@@ -214,7 +214,7 @@ export const Products = {
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Keepsake", price: 175, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $75 more"], },
-			{ name: "Legacy", price: 265, includes: ["60 minutes", "All digitals", "Print release"], },
+			{ name: "Legacy", price: 285, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
 		subTitle: "I've never loved anybody the way I love my children",
 		items: [],
@@ -404,11 +404,10 @@ export const Products = {
 		],
 		disclaimer:["Due to the short amount of time for these to happen (48 hours) there is NO GUARENTEE that KLiK will be able to make it if we already have a full schedule. The best thing to do is to contact us ahead of time so we know the approximate date & when you are heading to the hospital to have the baby, text the studio # at (507) 210-7087. When doing that we will let you know if we have availability in the 48 hours to do the photos!"],
 		items: [
-			"All digitals",
-			"Covers photographer coming to the hospital for your session",
+			"Covers photographer coming to the hospital (Faribault, and Owatonna hospitals included otherwise a travel fee may be assessed) for your session",
+			"All digitals are included.",
 			"All images edited with print release",
-			"Time & talent of photographer",
-			"Viewing session"
+			"Time & talent of photographer"
 		],
 		images: [
 			"/img/fresh48/1.jpg",
