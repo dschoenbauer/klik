@@ -103,7 +103,7 @@ export const Products = {
 		subTitle: "Where there is love there is life",
 		products: [
 			{
-				name: "Mini", price: 1200, includes: [
+				name: "Silver", price: 1200, includes: [
 					"4 hours",
 					"1 photographer",
 					"All digitals",
@@ -187,7 +187,7 @@ export const Products = {
 					"15 minutes",
 					"5 digitals",
 					"Print release",
-					"Option to purchase professional prints (starts @ $7) or all digitals ($50)",
+					"Option to purchase professional prints (starts @ $7) or all digitals ($75)",
 				]
 			},
 		],
@@ -259,7 +259,7 @@ export const Products = {
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
 			{ name: "Keepsake", price: 225, includes: ["30 minutes", "10 digitals", "Print release", "Option to add all digitals for $75 more"], },
-			{ name: "Legacy", price: 325, includes: ["60 minutes", "All digitals", "Print release"], },
+			{ name: "Legacy", price: 350, includes: ["60 minutes", "All digitals", "Print release"], },
 		],
 		items: [],
 		images: [
@@ -399,11 +399,12 @@ export const Products = {
 		title: "Fresh 48",
 		subTitle: "Your first breath took ours away",
 		products: [
-			{ name: "With a newborn session", price: 150, includes: [], },
-			{ name: "Without a newborn session", price: 200, includes: [], },
+			{ name: "With a newborn session", price: 175, includes: [], },
+			{ name: "Without a newborn session", price: 225, includes: [], },
 		],
 		disclaimer:["Due to the short amount of time for these to happen (48 hours) there is NO GUARENTEE that KLiK will be able to make it if we already have a full schedule. The best thing to do is to contact us ahead of time so we know the approximate date & when you are heading to the hospital to have the baby, text the studio # at (507) 210-7087. When doing that we will let you know if we have availability in the 48 hours to do the photos!"],
 		items: [
+			"All digitals",
 			"Covers photographer coming to the hospital for your session",
 			"All images edited with print release",
 			"Time & talent of photographer",
@@ -423,7 +424,7 @@ export const Products = {
 		products: [
 			{ name: "Mini", price: 225, includes: ["30 minute", "10 digitals", "Print release"], },
 			{ name: "Keepsake", price: 300, includes: ["30 minute", "All digitals", "Print release"], },
-			{ name: "Legacy", price: 275, includes: ["60 minute", "10 digitals", "Print release"], },
+			{ name: "Legacy", price: 300, includes: ["60 minute", "10 digitals", "Print release"], },
 			{ name: "Heirloom", price: 375, includes: ["60 minute", "All digitals", "Print release"], },
 
 		],
