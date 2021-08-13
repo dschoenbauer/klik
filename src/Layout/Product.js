@@ -10,12 +10,12 @@ export default class Product extends Component {
 	}
 
 	getProductCard(product, idx) {
-		const {images = [], key, title} = product;
+		const { images = [], key, title } = product;
 		const isOdd = idx % 2 === 0;
 		const image = images[Math.floor(images.length * Math.random())];
-		if(!image) return null;
+		if (!image) return null;
 		return <a key={key} href={`/portfolio/${key}`} className={`product-card ${isOdd ? "product-card--odd" : ""}`}>
-				<img className="product-card__image" alt={title} src={image}></img>
+			<img className="product-card__image" alt={title} src={image}></img>
 			<h2 className="product-card__title">{title}</h2>
 		</a>
 	}
@@ -25,7 +25,7 @@ export default class Product extends Component {
 		if (!this.state) return null;
 		return <div className="product-cards">
 			{Object.keys(this.state.products).map((key, idx) => {
-				const product = {...this.state.products[key], ...{key}};
+				const product = { ...this.state.products[key], ...{ key } };
 				return this.getProductCard(product, idx)
 			}
 			)}

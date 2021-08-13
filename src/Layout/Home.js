@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import Legacy from '../Component/Legacy';
 import Meet from '../Component/Meet';
 import Product from './Product';
 
 export default class Home extends Component {
 	render() {
-		return <div>
-			<Meet></Meet>
-			<Product></Product>
-		</div>;
+		return <Legacy>
+				<Meet></Meet>
+				<Product></Product>
+		</Legacy>;
 	}
 }
