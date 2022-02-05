@@ -208,13 +208,11 @@ export const Products = {
 		title: "Little Ones",
 		products: [
 			{ name: "Mini", price: 150, includes: ["15 minutes", "5 digitals", "Print release"], },
-			{ name: "Keepsake", price: 200, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $75 more"], },
-			{ name: "Legacy", price: 350, includes: ["60 minutes", "All digitals", "Print release"], },
+			{ name: "Keepsake", price: 200, includes: ["30 minutes", "10 digitals", "Print release", "Option to all digitals for $75 more", "Add family photos for $50"], },
+			{ name: "Legacy", price: 350, includes: ["60 minutes", "All digitals", "Print release", "Add family photos for $50"], },
 		],
 		subTitle: "I've never loved anybody the way I love my children",
-		items: [
-			"Add family photos for $50"
-		],
+		items: [],
 		disclaimer: [],
 		images: [
 			"/img/little_ones/1.jpg",
