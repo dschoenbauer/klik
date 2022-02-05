@@ -14,6 +14,8 @@ import ProductDetail from './Layout/ProductDetail';
 import Home from './Layout/Home';
 import Studio from './Layout/About/Studio';
 import Photographer from './Layout/About/Photographer';
+import Choice from './Component/Choice';
+import Lux from './Component/Lux';
 
 
 
@@ -24,7 +26,9 @@ function App() {
 			<Router>
 					<Analytics id={id}>
 						<Switch>
-							<Route exact path="/" component={Home} />
+							<Route exact path="/" component={Choice} />
+							<Route exact path="/lux" component={Lux} />
+							<Route exact path="/classic" component={Home} />
 							<Route exact path="/about" component={Photographer} />
 							<Route path="/about/studio" component={Studio} />
 							<Route path="/about/photographer" component={Photographer} />

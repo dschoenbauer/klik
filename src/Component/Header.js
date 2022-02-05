@@ -19,7 +19,7 @@ export default class Header extends Component {
 		let activeClass = this.state.isActive ? "fa fa-times" : "fa fa-bars" ;
 		return <header {...this.props}>
 			<div className="header__image-container">
-				<Link to="/">
+				<Link to="/classic">
 					<img className="header__image" alt="logo" src={logo} />
 				</Link>
 			</div>

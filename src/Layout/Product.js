@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Legacy from '../Component/Legacy';
 import { Products } from '../Data/Products';
 import "./Product.scss";
 
@@ -23,12 +24,14 @@ export default class Product extends Component {
 	render() {
 		console.log(this.state);
 		if (!this.state) return null;
-		return <div className="product-cards">
-			{Object.keys(this.state.products).map((key, idx) => {
-				const product = { ...this.state.products[key], ...{ key } };
-				return this.getProductCard(product, idx)
-			}
-			)}
-		</div>
+		return <Legacy>
+			<div className="product-cards">
+				{Object.keys(this.state.products).map((key, idx) => {
+					const product = { ...this.state.products[key], ...{ key } };
+					return this.getProductCard(product, idx)
+				}
+				)}
+			</div>
+		</Legacy>
 	}
 }

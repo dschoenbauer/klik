@@ -1,3 +1,4 @@
+
 import Header from './Header';
 import { Phone } from './Contact/Phone';
 import { SMS } from './Contact/SMS';
@@ -9,6 +10,7 @@ import data from '../Data/Data.json'
 
 import React, { Component } from 'react';
 import Footer from './Footer';
+import './Legacy.scss';
 
 export default class Legacy extends Component {
 
