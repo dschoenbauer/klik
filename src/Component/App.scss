@@ -75,7 +75,7 @@ html,body{
 	grid-template-rows: auto auto auto;
 	@media (max-width: 780px) {
 		grid-template-areas: "header" "content" "footer" "social";
-		grid-template-columns: auto;
+		grid-template-columns: 100%;
 		grid-template-rows: auto minmax(100vh,auto) auto auto;	
 	}
 
