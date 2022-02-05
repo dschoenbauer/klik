@@ -122,8 +122,7 @@ export const Products = {
 				name: "Legacy", price: 2800, includes: [
 					"8 hours",
 					"2 photographers",
-					"Free engagement session",
-					"With option to purchase prints or digitals",
+					"Free engagement session with option to purchase prints or digitals",
 					"Print release",
 				]
 			},
@@ -132,9 +131,7 @@ export const Products = {
 					"8 hours",
 					"2 photographers",
 					"$1000 print credit for canvases, photo books, thank you cards & more",
-					"Free engagement session",
-					"With option to purchase prints or digitals",
-					"All digitals from engagement session",
+					"Free engagement session with option to purchase prints or digitals",
 					"Print release",
 				]
 			},
